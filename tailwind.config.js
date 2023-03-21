@@ -5,22 +5,18 @@ module.exports = {
 	theme: {
 		extend: {
 			'animation': {
-				'text':'text 10s ease-in-out infinite',
+				'text':'text 15s ease infinite',
 			},
 			'keyframes': {
 				'text': {
-					'0%,100%': {
-					   'background-size':'200% 200%',
-						'background-position': 'left'
+					'0%, 100%': {
+						'background-size': '150% 150%',
+						'background-position': '0',
 					},
-					'25%': {
-						'background-size':'200% 200%',
-						 'background-position': 'center'
-					 },
-					 '50%': {
-						'background-size':'200% 200%',
-						 'background-position': 'right'
-					 },
+					'50%': {
+						'background-size': '150% 150%',
+						'background-position': '100%',
+					}
 				},
 			},
 			boxShadow: {
