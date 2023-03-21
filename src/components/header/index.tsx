@@ -1,3 +1,16 @@
+import Dropdown from "../dropdown";
+
+const company = [
+    { name: 'About us', href: '#', description: 'Learn more about our company values and mission to empower others' },
+    { name: 'Careers', href: '#', description: 'Looking for you next career opportunity? See all of our open positions' },
+    {
+      name: 'Support',
+      href: '#',
+      description: 'Get in touch with our dedicated support team or reach out on our community forums',
+    },
+    { name: 'Blog', href: '#', description: 'Read our latest announcements and get perspectives from our team' },
+  ]
+
 export default function HeaderComponent(){
     return (
         <header className="w-full text-gray-400 border-b bg-pearl border-cinder">
@@ -41,12 +54,14 @@ export default function HeaderComponent(){
 						>
 							Research
 						</a>
-						<a
-							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out mr-auto transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
-							href="#"
+						
+						<div
+							className="px-4 py-2 mt-2 text-base mr-auto bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
 						>
-							Company
-						</a>
+							<Dropdown items={company}>
+							Company	
+						</ Dropdown>
+						</div>
 						{/* <a
 							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out mr-auto transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
 							href="#"
