@@ -11,6 +11,16 @@ const company = [
     { name: 'Blog', href: '#', description: 'Read our latest announcements and get perspectives from our team' },
   ]
 
+  const openSource = [
+    { name: 'Install', href: '#', description: 'Download, install, and start labeling in 10 minutes.' },
+    {
+      name: 'Github',
+      href: '#',
+      description: 'Explore our project on Github.',
+    },
+    { name: 'Community', href: '#', description: 'Join our Slack community and connect with contributors and Label Studio users.' },
+  ]
+
 export default function HeaderComponent(){
     return (
         <header className="w-full text-gray-400 border-b bg-pearl border-cinder">
@@ -41,12 +51,13 @@ export default function HeaderComponent(){
 						>
 							Solutions
 						</a>
-						<a
-							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
-							href="#OpenSource"
+						<div
+							className="px-4 py-2 mt-2 text-base bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
 						>
-							Community
-						</a>
+						<Dropdown items={openSource}>
+							Open Source
+						</ Dropdown>
+						</div>
 
 						<a
 							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
@@ -58,7 +69,7 @@ export default function HeaderComponent(){
 						<div
 							className="px-4 py-2 mt-2 text-base mr-auto bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
 						>
-							<Dropdown items={company}>
+						<Dropdown items={company}>
 							Company	
 						</ Dropdown>
 						</div>
