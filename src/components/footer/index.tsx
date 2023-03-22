@@ -1,3 +1,5 @@
+import logo from "../../assets/logo.svg"
+
 export default function Footer(){
     return (
         <footer className="border-t border-tuna bg-cinder">
@@ -61,11 +63,10 @@ export default function Footer(){
 							<div className="text-white">
 								<span className="text-lg font-bold lg:text-2xl">
 									<div className="inline-flex items-center">
-										<object
+										<img
 											className="w-9 h-9"
-											type="image/svg+xml"
-											data="/logo.svg"
-										></object>
+											src={logo}
+										></img>
 										Logspace
 									</div>
 								</span>

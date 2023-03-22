@@ -1,3 +1,6 @@
+import langflow from "../../assets/gifs/langflow-demo.gif"
+import datacentric from "../../assets/images/datacentric.png"
+
 export default function Products() {
   return (
     <>
@@ -55,7 +58,7 @@ export default function Products() {
                 <div className="pl-5 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                   <img
                     className="w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="langflow-demo.gif"
+                    src={langflow}
                     alt="Inbox user interface"
                   />
                 </div>
@@ -75,7 +78,7 @@ export default function Products() {
                 <div className="pr-5 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                   <img
                     className="w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="datacentric.png"
+                    src={datacentric}
                     alt="Inbox user interface"
                   />
                 </div>

@@ -1,5 +1,7 @@
 import Dropdown from "../dropdown";
 
+import logo from '../../assets/logo.svg'
+
 const company = [
     { name: 'About us', href: '#', description: 'Learn more about our company values and mission to empower others' },
     { name: 'Careers', href: '#', description: 'Looking for you next career opportunity? See all of our open positions' },
@@ -31,11 +33,10 @@ export default function HeaderComponent(){
 							className="text-lg rounded-lg focus:outline-none focus:shadow-outline m-2"
 						>
 							<div className="inline-flex items-center gap-1">
-								<object
+								<img
 									className="w-9 h-9"
-									type="image/svg+xml"
-									data="/logo.svg"
-								></object>
+									src={logo}
+								></img>
 								Logspace
 							</div>
 						</a>

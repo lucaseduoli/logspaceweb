@@ -1,3 +1,5 @@
+import langflow from "../../assets/gifs/langflow-demo.gif"
+
 export default function Collaborate(){
     return (
         <section className="w-full" id="OpenSource">
@@ -56,7 +58,7 @@ export default function Collaborate(){
 								<div className="pl-5 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
 									<img
 										className="w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-										src="langflow-demo.gif"
+										src={langflow}
 										alt="Inbox user interface"
 									/>
 								</div>
