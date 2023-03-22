@@ -114,55 +114,6 @@ export default function Company() {
 											/>
 										</button>
 									</div>
-									<div className="flex justify-start px-4 pt-2 pb-6 text-left md:py-6 lg:px-0">
-										<div
-											className="text-left"
-											x-show="testimonialActive == 1"
-											style={{ display: "none" }}
-										>
-											<h2 className="text-sm font-bold leading-tight text-fandango md:text-base">
-												Dustin McCaffree
-											</h2>
-											<a
-												href="https://twitter.com/terribledustin"
-												target="_blank"
-												className="text-xs truncate text-santa md:text-sm"
-											>
-												@terribledustin.
-											</a>
-										</div>
-
-										<div className="text-left" x-show="testimonialActive == 2">
-											<h2 className="text-sm font-bold leading-tight text-fandango md:text-base">
-												Dom
-											</h2>
-											<a
-												href="https://twitter.com/dqmonn"
-												target="_blank"
-												className="text-xs truncate text-santa md:text-sm"
-											>
-												@dqmonn.
-											</a>
-										</div>
-
-										<div
-											className="text-left"
-											x-show="testimonialActive == 3"
-											style={{ display: "none" }}
-										>
-											<h2 className="text-sm font-bold leading-tight text-fandango md:text-base">
-												Blake Emal
-											</h2>
-											<a
-												href="https://twitter.com/heyblake"
-												target="_blank"
-												className="text-xs truncate text-santa md:text-sm"
-											>
-												{" "}
-												CMO @ Copy.ai{" "}
-											</a>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
