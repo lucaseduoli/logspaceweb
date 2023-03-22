@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/logspaceweb/static/css/main.5ff6a2a0.css",
-    "main.js": "/logspaceweb/static/js/main.74f644ff.js",
+    "main.css": "/logspaceweb/static/css/main.3de3c849.css",
+    "main.js": "/logspaceweb/static/js/main.221ca9f1.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
     "static/media/bitvore logo.png": "/logspaceweb/static/media/bitvore logo.3693e0909a6159fbddb1.png",
     "static/media/sapiens logo.png": "/logspaceweb/static/media/sapiens logo.e4f29a30da2141be791a.png",
     "static/media/ifood logo.svg": "/logspaceweb/static/media/ifood logo.a953bab2df885eb7b2bc5c9eb62d6518.svg",
     "index.html": "/logspaceweb/index.html",
-    "main.5ff6a2a0.css.map": "/logspaceweb/static/css/main.5ff6a2a0.css.map",
-    "main.74f644ff.js.map": "/logspaceweb/static/js/main.74f644ff.js.map",
+    "main.3de3c849.css.map": "/logspaceweb/static/css/main.3de3c849.css.map",
+    "main.221ca9f1.js.map": "/logspaceweb/static/js/main.221ca9f1.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ff6a2a0.css",
-    "static/js/main.74f644ff.js"
+    "static/css/main.3de3c849.css",
+    "static/js/main.221ca9f1.js"
   ]
 }
