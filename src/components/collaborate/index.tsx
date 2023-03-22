@@ -46,7 +46,7 @@ export default function Collaborate(){
 								<div className="flex w-full max-w-2xl gap-2 mt-6">
 									<div className="my-3 rounded-lg sm:mt-0">
 										<a
-											href="#"
+											href="https://github.com/logspace-ai/langflow"
 											className="items-center block px-8 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-majorelly lg:px-10 rounded-xl hover:bg-gov focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-thick"
 										>
 											Learn more

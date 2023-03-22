@@ -10,7 +10,6 @@ const company = [
       href: '#',
       description: 'Get in touch with our dedicated support team or reach out on our community forums',
     },
-    { name: 'Blog', href: '#', description: 'Read our latest announcements and get perspectives from our team' },
   ]
 
   const openSource = [
@@ -20,7 +19,6 @@ const company = [
       href: '#',
       description: 'Explore our project on Github.',
     },
-    { name: 'Community', href: '#', description: 'Join our Slack community and connect with contributors and Label Studio users.' },
   ]
 
 export default function HeaderComponent(){
@@ -52,6 +50,18 @@ export default function HeaderComponent(){
 						>
 							Solutions
 						</a>
+						<a
+							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
+							href="#"
+						>
+							Case Studies
+						</a>
+						<a
+							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
+							href="#"
+						>
+							Resources
+						</a>
 						<div
 							className="px-4 py-2 mt-2 text-base bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
 						>
@@ -59,13 +69,6 @@ export default function HeaderComponent(){
 							Open Source
 						</ Dropdown>
 						</div>
-
-						<a
-							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
-							href="#"
-						>
-							Research
-						</a>
 						
 						<div
 							className="px-4 py-2 mt-2 text-base mr-auto bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"

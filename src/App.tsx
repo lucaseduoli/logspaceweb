@@ -19,10 +19,8 @@ function App() {
 		<div className=" w-full h-full bg-pearl overflow-x-hidden">
 			<HeaderComponent />
 			<Head />
-			<Products />
 			<Collaborate />
 			<Research />
-			<Company />
 			<Footer />
 		</div>
 	);
