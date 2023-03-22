@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/logspaceweb/static/css/main.971ee46e.css",
-    "main.js": "/logspaceweb/static/js/main.590d7a26.js",
+    "main.js": "/logspaceweb/static/js/main.f43bafb7.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
+    "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.3ff2621e27ef1e07d187.gif",
+    "static/media/datacentric.png": "/logspaceweb/static/media/datacentric.8bfac97da1605d9b2a7f.png",
     "static/media/bitvore logo.png": "/logspaceweb/static/media/bitvore logo.3693e0909a6159fbddb1.png",
     "static/media/sapiens logo.png": "/logspaceweb/static/media/sapiens logo.e4f29a30da2141be791a.png",
+    "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "static/media/ifood logo.svg": "/logspaceweb/static/media/ifood logo.a953bab2df885eb7b2bc5c9eb62d6518.svg",
     "index.html": "/logspaceweb/index.html",
     "main.971ee46e.css.map": "/logspaceweb/static/css/main.971ee46e.css.map",
-    "main.590d7a26.js.map": "/logspaceweb/static/js/main.590d7a26.js.map",
+    "main.f43bafb7.js.map": "/logspaceweb/static/js/main.f43bafb7.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.971ee46e.css",
-    "static/js/main.590d7a26.js"
+    "static/js/main.f43bafb7.js"
   ]
 }
