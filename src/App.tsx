@@ -4,12 +4,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import HeaderComponent from "./components/header";
 import Head from "./components/head";
-import Products from "./components/products";
 import Collaborate from "./components/collaborate";
 import Research from "./components/research";
-import Company from "./components/company";
-import Blog from "./components/blog";
 import Footer from "./components/footer";
+import CaseStudies from "./components/caseStudies";
 
 function App() {
 	useEffect(() => {
@@ -20,6 +18,7 @@ function App() {
 			<HeaderComponent />
 			<Head />
 			<Collaborate />
+			<CaseStudies/>
 			<Research />
 			<Footer />
 		</div>

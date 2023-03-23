@@ -1,8 +1,3 @@
-import woohoo from '../../assets/partners/woohoo logo.png';
-import bitvore from '../../assets/partners/bitvore logo.png';
-import ifood from '../../assets/partners/ifood logo.svg';
-import sapiens from '../../assets/partners/sapiens logo.png';
-
 export default function Research(){
     return (
         <section>
@@ -169,41 +164,6 @@ export default function Research(){
 											alt="App screenshot"
 										/>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="relative items-center hidden w-full max-w-6xl px-5 py-12 mx-auto md:px-12 lg:px-16 lg:block">
-						<div className="mx-auto">
-							<div className="grid grid-cols-2 mx-auto lg:grid-cols-4">
-								<div>
-									<img
-										className="h-12 mx-auto"
-										src={woohoo}
-										alt="Framer"
-									/>
-								</div>
-								<div>
-									<img
-										className="h-12 mx-auto"
-										src={bitvore}
-										alt="Sketch "
-									/>
-								</div>
-								<div>
-									<img
-										className="h-12 mx-auto"
-										src={ifood}
-										alt="Sketch "
-									/>
-								</div>
-
-								<div>
-									<img
-										className="h-12 mx-auto"
-										src={sapiens}
-										alt="Invision"
-									/>
 								</div>
 							</div>
 						</div>
