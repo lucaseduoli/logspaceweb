@@ -5,9 +5,9 @@ import "aos/dist/aos.css";
 import HeaderComponent from "./components/header";
 import Head from "./components/head";
 import Collaborate from "./components/collaborate";
-import Research from "./components/research";
 import Footer from "./components/footer";
 import CaseStudies from "./components/caseStudies";
+import Solutions from "./components/research";
 
 function App() {
 	useEffect(() => {
@@ -19,7 +19,7 @@ function App() {
 			<Head />
 			<Collaborate />
 			<CaseStudies/>
-			<Research />
+			<Solutions />
 			<Footer />
 		</div>
 	);
