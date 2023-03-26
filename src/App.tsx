@@ -7,7 +7,7 @@ import Head from "./components/head";
 import Collaborate from "./components/collaborate";
 import Footer from "./components/footer";
 import CaseStudies from "./components/caseStudies";
-import Solutions from "./components/research";
+import Solutions from "./components/solutions";
 
 function App() {
 	useEffect(() => {
