@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/logspaceweb/static/css/main.0faed623.css",
-    "main.js": "/logspaceweb/static/js/main.0fddaa5b.js",
+    "main.css": "/logspaceweb/static/css/main.6f541411.css",
+    "main.js": "/logspaceweb/static/js/main.78809564.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
-    "static/media/ezgif.com-gif-maker-8.png": "/logspaceweb/static/media/ezgif.com-gif-maker-8.a39ec46dbd4d800136bb.png",
-    "static/media/ezgif.com-resize.png": "/logspaceweb/static/media/ezgif.com-resize.575c9956d8d83f35af5d.png",
-    "static/media/ezgif.com-gif-maker-7.png": "/logspaceweb/static/media/ezgif.com-gif-maker-7.94fb729e22109ffdcc9e.png",
     "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.3ff2621e27ef1e07d187.gif",
+    "static/media/image2.jpg": "/logspaceweb/static/media/image2.f11f44bbe2e0ffd7f45d.jpg",
+    "static/media/image3.jpg": "/logspaceweb/static/media/image3.f5ab8f5a27139adcc04f.jpg",
+    "static/media/image1.jpg": "/logspaceweb/static/media/image1.ea36fc953b3c6c4218d7.jpg",
     "static/media/bitvore logo.png": "/logspaceweb/static/media/bitvore logo.3693e0909a6159fbddb1.png",
     "static/media/sapiens logo.png": "/logspaceweb/static/media/sapiens logo.e4f29a30da2141be791a.png",
     "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "static/media/ifood logo.svg": "/logspaceweb/static/media/ifood logo.a953bab2df885eb7b2bc5c9eb62d6518.svg",
     "index.html": "/logspaceweb/index.html",
-    "main.0faed623.css.map": "/logspaceweb/static/css/main.0faed623.css.map",
-    "main.0fddaa5b.js.map": "/logspaceweb/static/js/main.0fddaa5b.js.map",
+    "main.6f541411.css.map": "/logspaceweb/static/css/main.6f541411.css.map",
+    "main.78809564.js.map": "/logspaceweb/static/js/main.78809564.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0faed623.css",
-    "static/js/main.0fddaa5b.js"
+    "static/css/main.6f541411.css",
+    "static/js/main.78809564.js"
   ]
 }
