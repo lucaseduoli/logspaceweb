@@ -7,8 +7,8 @@ export default function Solutions() {
 		<section>
 			<div className="py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-32">
 				<div className="flex flex-col w-full text-center lg:mb-12">
-					<h2 className="mb-4 text-4xl font-bold leading-none text-white rou lg:rounded-t-mdnded-t-n">
-						Solutions, Where We Shine
+					<h2 className="mb-8 text-6xl font-bold leading-none text-white lg:rounded-t-md">
+						Solutions
 					</h2>
 					<strong className="w-full mx-auto mb-8 text-xl font-light text-center text-white text-opacity-60 lg:text-center">
 						We <span className="font-bold">don't</span> support boxed
