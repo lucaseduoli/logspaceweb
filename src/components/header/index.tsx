@@ -1,6 +1,7 @@
 import Dropdown from "../dropdown";
 
 import logo from "../../assets/logo.svg";
+import {ReactComponent as Github} from "../../assets/images/github logo.svg";
 
 const company = [
 	{
@@ -102,9 +103,16 @@ export default function HeaderComponent() {
 					<a
 						href="https://github.com/logspace-ai"
 						title="See us on Github"
+						className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-4"
+					>
+						<Github className="w-6 h-6" />
+					</a>
+					<a
+						href="https://github.com/logspace-ai"
+						title="See us on Github"
 						className="px-8 py-2 mt-2 text-base text-white transition duration-500  ease-in-out transform rounded-lg bg-cinder md:mt-0 md:ml-4 focus:text-moody hover:bg-tuna focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow-thick"
 					>
-						See our projects
+						Contact us
 					</a>
 				</nav>
 			</div>
