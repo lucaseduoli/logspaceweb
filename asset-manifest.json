@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logspaceweb/static/css/main.5bdbd02b.css",
-    "main.js": "/logspaceweb/static/js/main.c4e9bbd5.js",
+    "main.css": "/logspaceweb/static/css/main.ae553108.css",
+    "main.js": "/logspaceweb/static/js/main.13b6c8f3.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
     "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.3ff2621e27ef1e07d187.gif",
     "static/media/image2.jpg": "/logspaceweb/static/media/image2.f11f44bbe2e0ffd7f45d.jpg",
@@ -16,12 +16,12 @@
     "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "static/media/github logo.svg": "/logspaceweb/static/media/github logo.0cdb84a327adbfeaa5bc73a2f940adca.svg",
     "index.html": "/logspaceweb/index.html",
-    "main.5bdbd02b.css.map": "/logspaceweb/static/css/main.5bdbd02b.css.map",
-    "main.c4e9bbd5.js.map": "/logspaceweb/static/js/main.c4e9bbd5.js.map",
+    "main.ae553108.css.map": "/logspaceweb/static/css/main.ae553108.css.map",
+    "main.13b6c8f3.js.map": "/logspaceweb/static/js/main.13b6c8f3.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bdbd02b.css",
-    "static/js/main.c4e9bbd5.js"
+    "static/css/main.ae553108.css",
+    "static/js/main.13b6c8f3.js"
   ]
 }
