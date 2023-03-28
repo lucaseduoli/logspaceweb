@@ -1,6 +1,6 @@
 import woohoo from '../../assets/partners/woohoo logo.png';
 import bitvore from '../../assets/partners/bitvore logo.png';
-import ifood from '../../assets/partners/ifood logo.svg';
+import ifood from '../../assets/partners/ifood logo.png';
 import sapiens from '../../assets/partners/sapiens logo.png';
 
 export default function Head() {
