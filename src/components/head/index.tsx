@@ -31,7 +31,7 @@ export default function Head() {
 					</div>
 				</div>
 			</div>
-			<div className="relative items-center hidden w-full max-w-6xl px-5 py-12 mx-auto md:px-12 lg:px-16 lg:block">
+			<div className="relative items-center hidden w-full max-w-6xl px-5 mb-32 mx-auto md:px-12 lg:px-16 lg:block">
 						<div className="mx-auto">
 							<div className="grid grid-cols-2 mx-auto lg:grid-cols-4">
 								<div>
