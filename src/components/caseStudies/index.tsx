@@ -25,10 +25,10 @@ export default function CaseStudies() {
 					<div className="max-w-xl mx-auto lg:max-w-7xl">
 						<h2 className="sr-only">Hear the community</h2>
 						<dl className="grid grid-cols-2 gap-4">
-							<Mosaic image={twitter1} />
-                            <Mosaic image={twitter2}/>
-                            <Mosaic image={twitter3}/>
-                            <Mosaic image={twitter4}/>
+							<Mosaic image={twitter1} delay={0} />
+                            <Mosaic image={twitter2} delay={300} />
+                            <Mosaic image={twitter3} delay={600} />
+                            <Mosaic image={twitter4} delay={900} />
 						</dl>
 					</div>
 				</div>
