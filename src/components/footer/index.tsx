@@ -1,5 +1,53 @@
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 
+const company = [
+  {
+    name: "About us",
+    href: "#",
+    description:
+      "Learn more about our company values and mission to empower others",
+  },
+  {
+    name: "Careers",
+    href: "#",
+    description:
+      "Looking for you next career opportunity? See all of our open positions",
+  },
+  {
+    name: "Support",
+    href: "#",
+    description:
+      "Get in touch with our dedicated support team or reach out on our community forums",
+  },
+];
+
+const openSource = [
+  {
+    name: "Install",
+    href: "#",
+    description: "Download, install, and start labeling in 10 minutes.",
+  },
+  {
+    name: "Github",
+    href: "#",
+    description: "Explore our project on Github.",
+  },
+];
+const resources = [
+  {
+    name: "Documentation",
+    href: "#",
+    description: "See the documentation of our projects",
+  },
+  { name: "Blog", href: "#", description: "Read the lastests new about us" },
+  {
+    name: "Integrations",
+    href: "#",
+    description:
+      "Choose from a wide range of third-party tools and applications ",
+  },
+];
+
 export default function Footer() {
   return (
     <>
@@ -27,7 +75,7 @@ export default function Footer() {
               
             </div>
             <div className="mt-12 xl:mt-0 xl:col-span-2">
-              <div className="md:grid md:grid-cols-3 md:gap-16">
+              <div className="md:grid md:grid-cols-4 md:gap-16">
                 <div>
                   <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     About Us
@@ -62,12 +110,61 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
+                        href="https://logspace.ai/"
+                        className="text-base font-light text-santa hover:text-white"
+                      >
+                        Solutions
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://logspace.ai/"
+                        className="text-base font-light text-santa hover:text-white"
+                      >
+                        Case Studies
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="mailto:contact@logspace.ai"
                         className="text-base font-light text-santa hover:text-white"
                       >
                         Contact Us
                       </a>
                     </li>
+                    
+                  </ul>
+                </div>
+                <div className="mt-12 md:mt-0">
+                  <h3 className="text-sm font-bold tracking-wider text-white uppercase">
+                    Company
+                  </h3>
+                  <ul role="list" className="mt-4 space-y-4">
+                    {company.map(c => (
+                      <li>
+                      <a
+                        href={c.href}
+                        className="text-base font-light text-santa hover:text-white"
+                      >
+                        {c.name}
+                      </a>
+                    </li>
+                    ))}
+                  </ul>
+                  <h3 className="text-sm mt-8 font-bold tracking-wider text-white uppercase">
+                    Open Source
+                  </h3>
+                  <ul role="list" className="mt-4 space-y-4">
+                    {openSource.map(c => (
+                      <li>
+                      <a
+                        href={c.href}
+                        className="text-base font-light text-santa hover:text-white"
+                      >
+                        {c.name}
+                      </a>
+                    </li>
+                    ))}
                   </ul>
                 </div>
 				<div className="mt-12 md:mt-0">
@@ -92,11 +189,28 @@ export default function Footer() {
                       </a>
                     </li>
                   </ul>
+                  <h3 className="text-sm mt-8 font-bold tracking-wider text-white uppercase">
+                    Resources
+                  </h3>
+                  <ul role="list" className="mt-4 space-y-4">
+                    {resources.map(c => (
+                      <li>
+                      <a
+                        href={c.href}
+                        className="text-base font-light text-santa hover:text-white"
+                      >
+                        {c.name}
+                      </a>
+                    </li>
+                    ))}
+                  </ul>
                 </div>
+                
               </div>
             </div>
           </div>
         </div>
+        
       </footer>
       <footer className="border-t border-tuna bg-cinder">
         <div className="px-5 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
