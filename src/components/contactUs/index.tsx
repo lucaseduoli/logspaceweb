@@ -1,15 +1,20 @@
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
+import { MutableRefObject, useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
+import emailkey from "../../keys/emailkey";
 
 export default function ContactUs() {
-    const [name, setName] = useState("");
-    const [phone, setPhone] = useState("");
-    const [mail, setMail] = useState("");
-    const [text, setText] = useState("");
+    const form = useRef(null);
 
     function handleSubmit(e:React.FormEvent<HTMLFormElement>){
         e.preventDefault();
-        
+        if(form !== null){
+            emailjs.sendForm(emailkey.SERVICE_ID, emailkey.TEMPLATE_ID, e.currentTarget, emailkey.PUBLIC_KEY).then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });emailjs.init(emailkey.PUBLIC_KEY);
+        }
     }
   return (
     <section id="contact" className="flex items-center justify-center h-screen min-h-full px-4 py-6 sm:px-6 lg:px-16">
@@ -40,7 +45,7 @@ export default function ContactUs() {
             </dl>
           </div>
         </div>
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+        <form className="mt-8 space-y-6" ref={form} onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div className="space-y-6">
               <div className="relative px-3 py-2 border-2 border-gray-300 rounded-xl focus-within:ring-1 focus-within:ring-majorelle focus-within:border-moody">
@@ -54,7 +59,6 @@ export default function ContactUs() {
                   type="text"
                   name="name"
                   id="name"
-                  onChange={(e) => {setName(e.target.value)}}
                   className="block w-full py-1 text-white bg-transparent border-0 placeholder-river focus:ring-0 sm:text-sm focus:ring-moody"
                   placeholder="Your name"
                 />
@@ -70,7 +74,6 @@ export default function ContactUs() {
                   type="text"
                   name="phone"
                   id="phone"
-                  onChange={(e) => {setPhone(e.target.value)}}
                   className="block w-full py-1 text-white bg-transparent border-0 placeholder-river focus:ring-0 sm:text-sm focus:ring-moody"
                   placeholder="Your phone number"
                 />
@@ -86,7 +89,6 @@ export default function ContactUs() {
                   type="email"
                   name="email"
                   id="email"
-                  onChange={(e) => {setMail(e.target.value)}}
                   className="block w-full py-1 text-white bg-transparent border-0 placeholder-river focus:ring-0 sm:text-sm focus:ring-moody"
                   placeholder="email@shadow.com"
                 />
@@ -103,10 +105,9 @@ export default function ContactUs() {
                 </label>
                 <textarea
                   className="block w-full h-full py-1 text-white bg-transparent border-0 placeholder-river focus:ring-0 sm:text-sm"
-                  id="description"
-                  name="description"
+                  id="message"
+                  name="message"
                   placeholder="Message..."
-                  onChange={(e) => {setText(e.target.value)}}
                   required
                 ></textarea>
               </div>
