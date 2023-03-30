@@ -16,12 +16,15 @@ export default function Footer() {
               <span className="text-lg font-bold lg:text-2xl">
                 <div className="inline-flex items-center">
                   <Logo className="w-8 mr-3" />
-                  Logspace
+                  <div className="flex flex-col">
+                    Logspace
+                    <p className="text-sm font-normal text-santa">
+                      Machine Learning, Custom-Built
+                    </p>
+                  </div>
                 </div>
               </span>
-              <p className="w-1/2 mx-auto ml-12 text-sm text-santa">
-                Machine Learning, Custom-Built
-              </p>
+              
             </div>
             <div className="mt-12 xl:mt-0 xl:col-span-2">
               <div className="md:grid md:grid-cols-3 md:gap-16">
