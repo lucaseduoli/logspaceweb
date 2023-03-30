@@ -4,17 +4,21 @@ import emailjs from '@emailjs/browser';
 import emailkey from "../../keys/emailkey";
 
 export default function ContactUs() {
-    const form = useRef(null);
+    const [done, setDone] = useState(0);
+    const formRef = useRef(null);
 
     function handleSubmit(e:React.FormEvent<HTMLFormElement>){
         e.preventDefault();
-        if(form !== null){
-            emailjs.sendForm(emailkey.SERVICE_ID, emailkey.TEMPLATE_ID, e.currentTarget, emailkey.PUBLIC_KEY).then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });emailjs.init(emailkey.PUBLIC_KEY);
-        }
+        emailjs.sendForm(emailkey.SERVICE_ID, emailkey.TEMPLATE_ID, e.currentTarget, emailkey.PUBLIC_KEY).then((result) => {
+          console.log(result.text);
+          if(result.text === "OK"){
+            setDone(1);
+          }
+          (formRef as unknown as HTMLFormElement).current.reset();
+      }, (error) => {
+          console.log(error.text);
+          setDone(2);
+      });emailjs.init(emailkey.PUBLIC_KEY);
     }
   return (
     <section id="contact" className="flex items-center justify-center h-screen min-h-full px-4 py-6 sm:px-6 lg:px-16">
@@ -45,7 +49,7 @@ export default function ContactUs() {
             </dl>
           </div>
         </div>
-        <form className="mt-8 space-y-6" ref={form} onSubmit={handleSubmit}>
+        <form ref={formRef} className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div className="space-y-6">
               <div className="relative px-3 py-2 border-2 border-gray-300 rounded-xl focus-within:ring-1 focus-within:ring-majorelle focus-within:border-moody">
@@ -116,9 +120,9 @@ export default function ContactUs() {
           <div>
             <button
               type="submit"
-              className="items-center block w-full px-8 py-3 mx-auto text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-majorelly lg:px-10 rounded-xl hover:bg-gov focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className={"items-center block w-full px-8 py-3 mx-auto text-base font-medium text-center text-white transition duration-500 ease-in-out transform lg:px-10 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 " + (done === 0 ? "bg-majorelly hover:bg-gov focus:ring-majorelly" : (done === 1 ? "hover:bg-shamrock bg-jade focus:ring-jade" : "bg-coral hover:bg-carnation focus:ring-coral"))}
             >
-              Send message
+              {done === 0 ? "Send message" : (done === 1 ? "Message sent!" : "Error sending message.")}
             </button>
           </div>
         </form>
