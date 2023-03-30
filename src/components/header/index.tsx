@@ -176,8 +176,8 @@ export default function HeaderComponent() {
             </svg>
           </a>
           <a
-            href="https://github.com/logspace-ai"
-            title="See us on Github"
+            href="mailto:contact@logspace.ai"
+            title="Contact us"
             className="px-8 py-2 mt-2 text-base text-white transition duration-500  ease-in-out transform rounded-lg bg-cinder md:mt-0 md:ml-4 focus:text-moody hover:bg-tuna focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 shadow-thick"
           >
             Contact us
