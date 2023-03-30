@@ -8,6 +8,7 @@ import Collaborate from "./components/collaborate";
 import Footer from "./components/footer";
 import CaseStudies from "./components/caseStudies";
 import Solutions from "./components/solutions";
+import ContactUs from "./components/contactUs";
 
 function App() {
 	useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
 			<Collaborate />
 			<CaseStudies/>
 			<Solutions />
+			<ContactUs />
 			<Footer />
 		</div>
 	);
