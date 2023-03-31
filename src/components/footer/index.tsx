@@ -151,7 +151,9 @@ export default function Footer() {
                     </li>
                     ))}
                   </ul>
-                  <h3 className="text-sm mt-8 font-bold tracking-wider text-white uppercase">
+                </div>
+				<div className="mt-12 md:mt-0">
+        <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     Open Source
                   </h3>
                   <ul role="list" className="mt-4 space-y-4">
@@ -165,29 +167,6 @@ export default function Footer() {
                       </a>
                     </li>
                     ))}
-                  </ul>
-                </div>
-				<div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-bold tracking-wider text-white uppercase">
-                    Our Software
-                  </h3>
-                  <ul role="list" className="mt-4 space-y-4">
-                    <li>
-                      <a
-                        href="https://github.com/logspace-ai/wavy"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        ≋ Wavy ≋
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/logspace-ai/langflow"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        ⛓ LangFlow
-                      </a>
-                    </li>
                   </ul>
                   <h3 className="text-sm mt-8 font-bold tracking-wider text-white uppercase">
                     Resources
