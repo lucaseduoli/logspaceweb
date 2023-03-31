@@ -60,7 +60,7 @@ export default function HeaderComponent() {
             href="#"
             className="text-lg rounded-lg focus:outline-none focus:shadow-outline m-2"
           >
-            <div className="inline-flex items-center gap-1">
+            <div className="inline-flex items-center gap-1 font-bold text-white">
               <img className="w-9 h-9" src={logo}></img>
               Logspace
             </div>

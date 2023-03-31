@@ -61,7 +61,7 @@ export default function Footer() {
         <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-12 lg:py-24">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="text-white xl:col-span-1">
-              <span className="text-lg font-bold lg:text-2xl">
+              <span className="text-lg font-bold">
                 <div className="inline-flex items-center">
                   <Logo className="w-8 mr-3" />
                   <div className="flex flex-col">
