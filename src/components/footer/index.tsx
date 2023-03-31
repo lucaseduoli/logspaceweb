@@ -67,7 +67,7 @@ export default function Footer() {
                   <div className="flex flex-col">
                     Logspace
                     <p className="text-sm font-normal text-santa">
-                      Machine Learning, Custom-Built
+                    Transforming the path to AI Integration
                     </p>
                   </div>
                 </div>
