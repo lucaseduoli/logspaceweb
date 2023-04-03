@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logspaceweb/static/css/main.7f2fa67b.css",
-    "main.js": "/logspaceweb/static/js/main.5b01e101.js",
+    "main.js": "/logspaceweb/static/js/main.f3baebbd.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
     "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.408fc351b8ca28137ca1.gif",
     "static/media/twitter-1.png": "/logspaceweb/static/media/twitter-1.a8be3928f63fede04c9d.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "index.html": "/logspaceweb/index.html",
     "main.7f2fa67b.css.map": "/logspaceweb/static/css/main.7f2fa67b.css.map",
-    "main.5b01e101.js.map": "/logspaceweb/static/js/main.5b01e101.js.map",
+    "main.f3baebbd.js.map": "/logspaceweb/static/js/main.f3baebbd.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f2fa67b.css",
-    "static/js/main.5b01e101.js"
+    "static/js/main.f3baebbd.js"
   ]
 }
