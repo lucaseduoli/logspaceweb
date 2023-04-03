@@ -6,9 +6,9 @@ import ContactUsPage from "./pages/contactUs";
 const Router = () => {
    return(
         <Routes>
-            <Route path="/logspaceweb/" element={<MainPage/>}/>
-            <Route path="/logspaceweb/aboutus" element={<AboutUsPage/>}/>
-            <Route path="/logspaceweb/contactus" element={<ContactUsPage/>}/>
+            <Route path="/" element={<MainPage/>}/>
+            <Route path="/aboutus" element={<AboutUsPage/>}/>
+            <Route path="/contactus" element={<ContactUsPage/>}/>
        </Routes>
    )
 }

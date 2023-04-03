@@ -1,6 +1,6 @@
 {
   "name": "logspace-site",
-  "homepage": "http://lucaseduoli.github.io/logspaceweb/#",
+  "homepage": "/logspaceweb/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

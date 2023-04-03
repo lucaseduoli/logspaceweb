@@ -61,7 +61,7 @@ export default function Head() {
               </div>
               <div className="flex w-full max-w-2xl gap-2 mt-6 lg:justify-center lg:mx-auto">
                   <a
-                    href="/logspaceweb/contactus"
+                    href="/logspaceweb/#/contactus"
                     className=" flex gap-3 items-center group ring-2 ring-[#475dc2] bg-pearl px-6 py-2.5 text-base font-medium text-center text-white transition duration-500 ease-in-out rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white hover:ring-white hover:shadow-lg  hover:shadow-[#ffffff50]
                     from-[#64abb8] via-[#475dc2] to-[#5b51c4]"
                   >
