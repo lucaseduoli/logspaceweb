@@ -9,21 +9,14 @@ import Footer from "./components/footer";
 import CaseStudies from "./components/caseStudies";
 import Solutions from "./components/solutions";
 import ContactUs from "./components/contactUs";
+import Router from "./routes";
 
 function App() {
 	useEffect(() => {
 		AOS.init();
 	}, []);
 	return (
-		<div className=" w-full h-full bg-pearl overflow-x-hidden">
-			<HeaderComponent />
-			<Head />
-			<Collaborate />
-			<CaseStudies/>
-			<Solutions />
-			<ContactUs />
-			<Footer />
-		</div>
+		<Router></Router>
 	);
 }
 
