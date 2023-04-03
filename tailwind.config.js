@@ -66,6 +66,7 @@ module.exports = {
 				fandango: "#a3278f",
 				//new dark
 				smoke: "#f0f0f0",
+				chimney: "#acacb8",
 				santa: "#a0a1b2",
 				river: "#464a5d",
 				bright: "#3c3e4e",

@@ -20,7 +20,7 @@ export default function Collaborate() {
                 </span>
                 AI project with us.{" "}
               </h1>
-              <p className="mb-6 text-xl font-light text-santa">
+              <p className="mb-6 text-xl font-light text-chimney">
                 Join our open-source community and collaborate on building
                 cutting-edge AI projects together. Let's push the boundaries of
                 what's possible and make a positive impact on the world.
@@ -42,7 +42,7 @@ export default function Collaborate() {
               </h1>
               <p
                 data-animate="subtitle"
-                className="max-w-md mt-6 text-base text-santa sm:text-lg md:mt-5 md:max-w-xl"
+                className="max-w-md mt-6 text-base text-chimney font-light sm:text-lg md:mt-5 md:max-w-xl"
               >
                 LangFlow is a GUI for LangChain, designed with react-flow to
                 provide an effortless way to experiment and prototype flows with

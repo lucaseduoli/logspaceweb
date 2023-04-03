@@ -14,7 +14,7 @@ export default function CaseStudies() {
 							<h2 className="mb-4 text-4xl font-bold leading-none text-white lg:text-6xl">
 								Hear the community
 							</h2>
-							<p className="mb-6 text-xl font-light text-santa">
+							<p className="mb-6 text-xl font-light text-chimney">
 								See what the community is saying about LangFlow.
 							</p>
 						</div>
