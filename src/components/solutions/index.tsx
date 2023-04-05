@@ -1,8 +1,70 @@
-import npl from "../../assets/images/image1.jpg"
+import { useEffect, useState } from "react";
+import npl from "../../assets/gifs/natural-language-processing.gif"
 import tsf from "../../assets/images/image2.jpg"
 import dpn from "../../assets/images/image3.jpg"
+import TRUNK from "vanta/dist/vanta.trunk.min";
+import HALO from "vanta/dist/vanta.halo.min";
+import GLOBE from "vanta/dist/vanta.globe.min";
 
 export default function Solutions() {
+const [vantaEffect1, setVantaEffect1] = useState(null);
+  useEffect(() => {
+    if (!vantaEffect1) {
+      setVantaEffect1(
+        TRUNK({
+			el: "#trunk",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			scaleMobile: 1.00
+		  })
+      );
+    }
+    return () => {
+      if (vantaEffect1) (vantaEffect1 as any).destroy();
+    };
+  }, [vantaEffect1]);
+  const [vantaEffect2, setVantaEffect2] = useState(null);
+  useEffect(() => {
+    if (!vantaEffect2) {
+      setVantaEffect2(
+        HALO({
+			el: "#halo",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00
+		  })
+      );
+    }
+    return () => {
+      if (vantaEffect2) (vantaEffect2 as any).destroy();
+    };
+  }, [vantaEffect2]);
+  const [vantaEffect3, setVantaEffect3] = useState(null);
+  useEffect(() => {
+    if (!vantaEffect3) {
+      setVantaEffect3(
+        GLOBE({
+			el: "#globe",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			scaleMobile: 1.00
+		  })
+      );
+    }
+    return () => {
+      if (vantaEffect3) (vantaEffect3 as any).destroy();
+    };
+  }, [vantaEffect3]);
 	return (
 		<section>
 			<div className="py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-32">
@@ -64,12 +126,8 @@ export default function Solutions() {
 										</div>
 									</div>
 								</div>
-								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-									<img
-										className="object-cover transform"
-										src={npl}
-										alt=""
-									/>
+								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1" id="globe">
+
 								</div>
 							</div>
 						</div>
@@ -77,12 +135,8 @@ export default function Solutions() {
 					<div className="px-5 lg:px-0">
 						<div className="mx-auto max-w-7xl">
 							<div className="overflow-hidden rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
-								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-									<img
-										className="object-cover transform"
-										src={tsf}
-										alt="App screenshot"
-									/>
+								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1" id="halo">
+		
 								</div>
 								<div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
 									<div className="space-y-4 lg:space-y-8 lg:self-center">
@@ -179,12 +233,7 @@ export default function Solutions() {
 										</div>
 									</div>
 								</div>
-								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-									<img
-										className="object-cover transform"
-										src={dpn}
-										alt="App screenshot"
-									/>
+								<div className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1" id="trunk">
 								</div>
 							</div>
 						</div>

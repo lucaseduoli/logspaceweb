@@ -6,7 +6,7 @@ import { ReactComponent as Github } from "../../assets/images/github logo.svg";
 const company = [
   {
     name: "About us",
-    href: "#",
+    href: "logspaceweb/aboutus",
     description:
       "Learn more about our company values and mission to empower others",
   },
@@ -16,6 +16,7 @@ const company = [
     description:
       "Looking for you next career opportunity? See all of our open positions",
   },
+  { name: "Blog", href: "#", description: "Read the lastests new about us" },
   {
     name: "Support",
     href: "#",
@@ -31,25 +32,17 @@ const openSource = [
     description: "Download, install, and start labeling in 10 minutes.",
   },
   {
+    name: "Documentation",
+    href: "#",
+    description: "See the documentation of our projects",
+  },
+  {
     name: "Github",
     href: "#",
     description: "Explore our project on Github.",
   },
 ];
-const resources = [
-  {
-    name: "Documentation",
-    href: "#",
-    description: "See the documentation of our projects",
-  },
-  { name: "Blog", href: "#", description: "Read the lastests new about us" },
-  {
-    name: "Integrations",
-    href: "#",
-    description:
-      "Choose from a wide range of third-party tools and applications ",
-  },
-];
+
 
 export default function HeaderComponent() {
   return (
@@ -83,9 +76,7 @@ export default function HeaderComponent() {
           >
             Case Studies
           </a>
-          <div className="px-4 py-2 mt-2 text-base bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
-            <Dropdown items={resources}>Resources</Dropdown>
-          </div>
+
           <div className="px-4 py-2 mt-2 text-base bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
             <Dropdown items={openSource}>Open Source</Dropdown>
           </div>
