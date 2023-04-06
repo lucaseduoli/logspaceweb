@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/logspaceweb/static/css/main.da27d92d.css",
-    "main.js": "/logspaceweb/static/js/main.9d51c085.js",
+    "main.css": "/logspaceweb/static/css/main.b64e10f8.css",
+    "main.js": "/logspaceweb/static/js/main.d271e7ec.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
     "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.408fc351b8ca28137ca1.gif",
+    "static/media/twitter-1.png": "/logspaceweb/static/media/twitter-1.a8be3928f63fede04c9d.png",
     "static/media/datax logo.png": "/logspaceweb/static/media/datax logo.4dc1bf520d1c9d48727b.png",
-    "static/media/twitter-2.png": "/logspaceweb/static/media/twitter-2.3ac32071c4d2dbed49a6.png",
-    "static/media/twitter-3.png": "/logspaceweb/static/media/twitter-3.ce8f68abcf49c2fed274.png",
+    "static/media/twitter-2.png": "/logspaceweb/static/media/twitter-2.03e3d16809b01db80c7f.png",
     "static/media/bitvore logo.png": "/logspaceweb/static/media/bitvore logo.dbe2226c4fd6beaa8cab.png",
-    "static/media/twitter-4.png": "/logspaceweb/static/media/twitter-4.5e0aa8986ea65ff2d0ff.png",
-    "static/media/twitter-1.png": "/logspaceweb/static/media/twitter-1.9bc768b21cb9495cab8a.png",
+    "static/media/twitter-3.png": "/logspaceweb/static/media/twitter-3.01fd3f9e32e31f6e665f.png",
+    "static/media/twitter-4.png": "/logspaceweb/static/media/twitter-4.950101a29b3015aa00f5.png",
     "static/media/etc logo.png": "/logspaceweb/static/media/etc logo.f8083c98dae8164d2bf7.png",
     "static/media/ifood logo.png": "/logspaceweb/static/media/ifood logo.81967356dd8d2a0c0b4f.png",
     "static/media/highdata logo.png": "/logspaceweb/static/media/highdata logo.b8e246c9f03f2f90e468.png",
     "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "index.html": "/logspaceweb/index.html",
-    "main.da27d92d.css.map": "/logspaceweb/static/css/main.da27d92d.css.map",
-    "main.9d51c085.js.map": "/logspaceweb/static/js/main.9d51c085.js.map",
+    "main.b64e10f8.css.map": "/logspaceweb/static/css/main.b64e10f8.css.map",
+    "main.d271e7ec.js.map": "/logspaceweb/static/js/main.d271e7ec.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da27d92d.css",
-    "static/js/main.9d51c085.js"
+    "static/css/main.b64e10f8.css",
+    "static/js/main.d271e7ec.js"
   ]
 }
