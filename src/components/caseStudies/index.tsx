@@ -7,7 +7,7 @@ import twitter4 from "../../assets/images/twitter-4.png";
 export default function CaseStudies() {
 	return (
 		<section className="relative w-full">
-			<div className="relative items-center w-full px-5 py-12 mx-auto lg:py-32 md:px-12 lg:px-16 max-w-7xl">
+			<div className="relative items-center w-full px-5 py-12 mx-auto lg:py-20 md:px-12 lg:px-16 max-w-7xl">
 				<div className="flex w-full mx-auto text-left">
 					<div className="relative inline-flex items-center m-auto align-middle">
 						<div className="max-w-3xl space-y-8 lg:text-center">
@@ -21,7 +21,7 @@ export default function CaseStudies() {
 					</div>
 				</div>
 
-				<div className="py-6 lg:py-12">
+				<div className="py-6 lg:pt-12">
 					<div className="max-w-xl mx-auto lg:max-w-7xl">
 						<h2 className="sr-only">Hear the community</h2>
 						<dl className="grid grid-cols-2 gap-4">

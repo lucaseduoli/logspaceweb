@@ -37,10 +37,10 @@ export default function Head() {
   return (
     <section className="relative w-full">
       <div className="w-full h-full" id="vantaRef">
-        <div className="relative items-center w-full px-5 py-48 pb-64 mx-auto md:px-12 lg:px-16 max-w-7xl">
+        <div className="relative items-center w-full px-5 py-40 pb-72 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div className="flex w-full mx-auto text-left lg:mt-16">
             <div className="relative flex flex-col items-center m-auto align-middle">
-              <div id="top" className="max-w-3xl space-y-8 lg:text-center">
+              <div id="top" className="max-w-3xl space-y-4 lg:text-center">
                 <h1 className="mb-4 text-4xl font-bold leading-none text-white lg:text-6xl">
                   Transforming the path to
                   <span
@@ -53,7 +53,7 @@ export default function Head() {
                     AI Integration{" "}
                   </span>
                 </h1>
-                <p className="mb-6 text-xl font-light text-santa">
+                <p className="mb-6 text-xl font-light text-smoke">
                   AI solutions powered by state-of-the-art technologies, with
                   pipelines that start from research all the way up to
                   deployment.
@@ -61,7 +61,7 @@ export default function Head() {
               </div>
               <div className="flex w-full max-w-2xl gap-2 mt-10 lg:justify-center lg:mx-auto">
                   <a
-                    href="mailto:contact@logspace.ai"
+                    href="/logspaceweb/contactus"
                     className=" flex gap-3 items-center group ring-2 bg-pearl px-6 py-2.5 text-base font-medium text-center text-white transition duration-500 ease-in-out rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white hover:ring-white hover:shadow-lg  hover:shadow-[#ffffff50]
                     from-[#64abb8] via-[#475dc2] to-[#5b51c4]"
                   >
@@ -75,7 +75,7 @@ export default function Head() {
       </div>
       <div className="relative items-center text-center hidden w-full mx-auto lg:block">
         <div className="mx-auto">
-          <div className="w-full py-7">
+          <div className="w-full py-4">
             <div className="w-full flex justify-center gap-16" style={{ filter: "brightness(1.5)" }}>
             <div
               className="flex items-center"
@@ -84,7 +84,7 @@ export default function Head() {
               data-aos-delay="0"
               data-aos-anchor="#top"
             >
-              <img className="w-40 mx-auto" src={woohoo} alt="Woohoo" />
+              <img className="w-32 mx-auto" src={woohoo} alt="Woohoo" />
             </div>
 
             <div
@@ -94,7 +94,7 @@ export default function Head() {
               data-aos-delay="200"
               data-aos-anchor="#top"
             >
-              <img className="h-12 mx-auto" src={etc} alt="ETC" />
+              <img className="h-10 mx-auto" src={etc} alt="ETC" />
             </div>
 
             <div
@@ -104,7 +104,7 @@ export default function Head() {
               data-aos-delay="400"
               data-aos-anchor="#top"
             >
-              <img className="w-40 mx-auto" src={highdata} alt="Highdata" />
+              <img className="w-32 mx-auto" src={highdata} alt="Highdata" />
             </div>
             <div
               className="flex items-center"
@@ -113,7 +113,7 @@ export default function Head() {
               data-aos-delay="600"
               data-aos-anchor="#top"
             >
-              <img className="w-40 mx-auto" src={datax} alt="DataX" />
+              <img className="w-32 mx-auto" src={datax} alt="DataX" />
             </div>
             <div
               className="flex items-center"
@@ -122,7 +122,7 @@ export default function Head() {
               data-aos-delay="800"
               data-aos-anchor="#top"
             >
-              <img className="w-40 mx-auto" src={bitvore} alt="Bitvore" />
+              <img className="w-32 mx-auto" src={bitvore} alt="Bitvore" />
             </div>
             <div
               className="flex items-center"
@@ -131,7 +131,7 @@ export default function Head() {
               data-aos-delay="1000"
               data-aos-anchor="#top"
             >
-              <img className="h-12 mx-auto" src={ifood} alt="iFood" />
+              <img className="h-10 mx-auto" src={ifood} alt="iFood" />
             </div>
 
             <div
@@ -141,7 +141,7 @@ export default function Head() {
               data-aos-delay="1200"
               data-aos-anchor="#top"
             >
-              <img className="w-40 mx-auto" src={sapiens} alt="Sapiens" />
+              <img className="w-32 mx-auto" src={sapiens} alt="Sapiens" />
             </div>
             </div>
           </div>

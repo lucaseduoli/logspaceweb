@@ -1,12 +1,12 @@
-import Company from "../../components/company";
+import ContactUs from "../../components/contactUs";
 import Footer from "../../components/footer";
 import HeaderComponent from "../../components/header";
 
-export default function AboutUsPage(){
+export default function ContactUsPage(){
     return (
         <div className=" w-full h-full bg-pearl overflow-x-hidden">
 			<HeaderComponent />
-			<Company />
+			<ContactUs />
 			<Footer />
 		</div>
     )

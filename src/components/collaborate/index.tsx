@@ -3,7 +3,7 @@ import langflow from "../../assets/gifs/langflow-demo.gif";
 export default function Collaborate() {
   return (
     <section className="w-full" id="OpenSource">
-      <div className="items-center px-5 py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-32">
+      <div className="items-center px-5 py-8 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-20">
         <div className="flex w-full mx-auto text-left">
           <div className="relative inline-flex items-center mx-auto align-middle">
             <div className="max-w-2xl space-y-8 lg:text-center">
