@@ -93,7 +93,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://logspace.ai/"
+                        href="/logspaceweb/#/casestudies"
                         className="text-base font-light text-santa hover:text-white"
                       >
                         Case Studies

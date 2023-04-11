@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import CaseStudies from "../../components/caseStudies";
+import Community from "../../components/community";
 import Collaborate from "../../components/collaborate";
 import ContactUs from "../../components/contactUs";
 import Footer from "../../components/footer";
@@ -23,7 +23,7 @@ export default function MainPage() {
         
         <div className="w-full relative">
           <Collaborate />
-          <CaseStudies />
+          <Community />
           <Solutions />
         </div>
       </div>

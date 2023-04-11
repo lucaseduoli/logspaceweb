@@ -64,7 +64,7 @@ export default function HeaderComponent() {
           </button>
           <a
             className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
-            href="#"
+            href="/logspaceweb/#/casestudies"
           >
             Case Studies
           </a>
