@@ -58,95 +58,86 @@ export default function AboutUs() {
                 </p>
               </div>
             </main>
+            <div className="grid my-12 gap-x-16 grid-cols-6 max-w-2xl ml-auto mr-auto">
+              <a href="https://www.linkedin.com/in/rodrigo-nader-673163bb/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C4D03AQGL-szmiHGgqA/profile-displayphoto-shrink_200_200/0/1526259222508?e=1684972800&v=beta&t=5TX618TmK48CBJHTShxhWvrt-vtYISjMXEjuPbamIcE"
+                    alt="Rodrigo Nader on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                  <figcaption className="text-center mt-4 font-bold text-xs text-santa lg:text-base">
+                    Founder
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="https://www.linkedin.com/in/ogabrielluiz/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C4D03AQE0FdYxVREEeQ/profile-displayphoto-shrink_200_200/0/1541646587416?e=1684972800&v=beta&t=fRcyluwIK0u_xX49lEnV9fgtKIs92Zx6_ZR15qaAem4"
+                    alt="Gabriel Luiz Freitas Almeida on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                  <figcaption className="text-center mt-4 font-bold text-xs text-santa lg:text-base">
+                    Co-Founder
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div className="grid my-12 gap-x-16 grid-cols-6 max-w-2xl ml-auto mr-auto">
+              <a href="https://www.linkedin.com/in/otavio-anovazzi-104535206/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C5603AQGtLJqF_MrQeA/profile-displayphoto-shrink_200_200/0/1628185122820?e=1684972800&v=beta&t=2DnDS-AFSZA0A86luEY2q1QA2JOedKECVc7pKwXcRjI"
+                    alt="Otavio Anovazzi on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
+              <a href="https://www.linkedin.com/in/carlosrodrigocoelho/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C4E03AQHBc-n_Ns0LNw/profile-displayphoto-shrink_200_200/0/1590614498030?e=1684972800&v=beta&t=OL-IegYUfLwflvGSN7pqOjcsY48Dp2MUoFjq-Db2f5s"
+                    alt="Carlos Rodrigo on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
+              <a href="https://www.linkedin.com/in/ibiscp/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C5603AQFHnWuckvU-Kg/profile-displayphoto-shrink_200_200/0/1581501245426?e=1684972800&v=beta&t=gZSEbm1jw6Kq3Z3E2Ni9cCDODYMxfDWnFDIA6CASyUw"
+                    alt="Ibis Prevedello on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
+              <a href="https://www.linkedin.com/in/lucas-oliveira-92266520b/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C4E03AQG0YoTeTagZIg/profile-displayphoto-shrink_200_200/0/1618114751659?e=1684972800&v=beta&t=xLyjYN9zl3juTJYJzpygVPcTllc9VJbviE1SjfJ9q_M"
+                    alt="Lucas Oliveira on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 my-24 gap-y-12 gap-x-6 lg:grid-cols-4">
-          <a href="https://www.linkedin.com/in/otavio-anovazzi-104535206/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C5603AQGtLJqF_MrQeA/profile-displayphoto-shrink_200_200/0/1628185122820?e=1684972800&v=beta&t=2DnDS-AFSZA0A86luEY2q1QA2JOedKECVc7pKwXcRjI"
-                alt="Otavio Anovazzi on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Otavio Anovazzi
-              </figcaption>
-            </figure>
-          </a>
-          <a href="https://www.linkedin.com/in/ogabrielluiz/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C4D03AQE0FdYxVREEeQ/profile-displayphoto-shrink_200_200/0/1541646587416?e=1684972800&v=beta&t=fRcyluwIK0u_xX49lEnV9fgtKIs92Zx6_ZR15qaAem4"
-                alt="Gabriel Luiz Freitas Almeida on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Gabriel Luiz
-              </figcaption>
-            </figure>
-          </a>
-          <a href="https://www.linkedin.com/in/rodrigo-nader-673163bb/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C4D03AQGL-szmiHGgqA/profile-displayphoto-shrink_200_200/0/1526259222508?e=1684972800&v=beta&t=5TX618TmK48CBJHTShxhWvrt-vtYISjMXEjuPbamIcE"
-                alt="Rodrigo Nader on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Rodrigo Nader
-              </figcaption>
-            </figure>
-          </a>
-          <a href="https://www.linkedin.com/in/carlosrodrigocoelho/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C4E03AQHBc-n_Ns0LNw/profile-displayphoto-shrink_200_200/0/1590614498030?e=1684972800&v=beta&t=OL-IegYUfLwflvGSN7pqOjcsY48Dp2MUoFjq-Db2f5s"
-                alt="Carlos Rodrigo on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Carlos Rodrigo
-              </figcaption>
-            </figure>
-          </a>
-          <a href="https://www.linkedin.com/in/ibiscp/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C5603AQFHnWuckvU-Kg/profile-displayphoto-shrink_200_200/0/1581501245426?e=1684972800&v=beta&t=gZSEbm1jw6Kq3Z3E2Ni9cCDODYMxfDWnFDIA6CASyUw"
-                alt="Ibis Prevedello on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Ibis Prevedello
-              </figcaption>
-            </figure>
-          </a>
-          <a href="https://www.linkedin.com/in/lucas-oliveira-92266520b/">
-            <figure>
-              <img
-                className="w-full rounded-xl shadow-thick border-river"
-                src="https://media.licdn.com/dms/image/C4E03AQG0YoTeTagZIg/profile-displayphoto-shrink_200_200/0/1618114751659?e=1684972800&v=beta&t=xLyjYN9zl3juTJYJzpygVPcTllc9VJbviE1SjfJ9q_M"
-                alt="Lucas Oliveira on Linkedin"
-                width="1310"
-                height="873"
-              />
-              <figcaption className="mt-4 text-xs text-santa lg:text-base">
-                Lucas Oliveira
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-        <div className="lg:grid lg:grid-cols-3 lg:gap-8">
+
+        <div className="lg:grid lg:grid-cols-3 lg:gap-8 mt-10">
           <div>
             <h1 className="text-4xl font-bold text-white">How It Works</h1>
           </div>
@@ -186,62 +177,36 @@ export default function AboutUs() {
             </main>
           </div>
         </div>
-        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-32 md:px-12 lg:px-16 max-w-7xl">
-          <div className="flex w-full mx-auto text-left">
-            <div className="relative inline-flex items-center m-auto align-middle">
-              <div className="max-w-3xl space-y-8 lg:text-center">
-                <h2 className="mb-4 text-4xl font-bold leading-none text-white lg:text-6xl">
-                  We Believe
-                </h2>
-              </div>
-            </div>
-          </div>
-
+        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-32 md:px-12 lg:px-16 max-w-5xl">
           <div className="pt-12">
             <div className="max-w-xl mx-auto lg:max-w-7xl">
               <h2 className="sr-only">Title text for screen readers</h2>
               <dl className="">
                 <div className="h-full p-6 bg-cinder lg:p-8 shadow-thick rounded-2xl">
-                  <dd className="text-lg text-center text-santa flex justify-between">
-                    <ChevronRightIcon className="w-6 mr-4" />
-                    <span>Data is the asset, knowledge should be free. </span>
-                    <ChevronLeftIcon className="w-6 ml-4" />
-                  </dd>
-                </div>
-                <div className="h-full p-6 mt-6 bg-cinder lg:p-8 shadow-thick rounded-2xl">
-                  <dd className="text-lg text-center text-santa flex justify-between">
-                    <ChevronRightIcon className="w-6 mr-4" />
+                  <div className="flex w-full mx-auto text-left">
+                    <div className="relative inline-flex items-center m-auto align-middle">
+                      <div className="max-w-3xl space-y-8 lg:text-center">
+                        <h2 className="mb-8 text-5xl font-bold leading-none text-white">
+                          We Believe...
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <dd className="text-lg text-chimney flex flex-col gap-3 px-24 justify-between">
+                    <span>• Data is the asset, knowledge should be free. </span>
                     <span>
-                      Zero bandages. Every piece of software should be reusable.{" "}
+                      • Zero bandages. Every piece of software should be
+                      reusable.{" "}
                     </span>
-                    <ChevronLeftIcon className="w-6 ml-4" />
-                  </dd>
-                </div>
-                <div className="h-full p-6 mt-6 bg-cinder lg:p-8 shadow-thick rounded-2xl">
-                  <dd className="text-lg text-center text-santa flex justify-between">
-                    <ChevronRightIcon className="w-6 mr-4" />
                     <span>
-                      Simple is better (and cheaper). Fancy solutions should
+                      • Simple is better (and cheaper). Fancy solutions should
                       have a strong motivation.{" "}
                     </span>
-                    <ChevronLeftIcon className="w-6 ml-4" />
-                  </dd>
-                </div>
-                <div className="h-full p-6 mt-6 bg-cinder lg:p-8 shadow-thick rounded-2xl">
-                  <dd className="text-lg text-center text-santa flex justify-between">
-                    <ChevronRightIcon className="w-6 mr-4" />
-                    <span>Clear-cut goals before taking a step ahead. </span>
-                    <ChevronLeftIcon className="w-6 ml-4" />
-                  </dd>
-                </div>
-                <div className="h-full p-6 mt-6 bg-cinder lg:p-8 shadow-thick rounded-2xl">
-                  <dd className="text-lg text-center text-santa flex justify-between">
-                    <ChevronRightIcon className="w-6 mr-4" />
+                    <span>• Clear-cut goals before taking a step ahead. </span>
                     <span>
-                      Creativity is key to connect the right tools with the
+                      • Creativity is key to connect the right tools with the
                       proper resources.{" "}
                     </span>
-                    <ChevronLeftIcon className="w-6 ml-4" />
                   </dd>
                 </div>
               </dl>

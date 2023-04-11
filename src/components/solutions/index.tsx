@@ -4,7 +4,7 @@ import tsf from "../../assets/images/image2.jpg";
 import dpn from "../../assets/images/image3.jpg";
 import TRUNK from "vanta/dist/vanta.trunk.min";
 import HALO from "vanta/dist/vanta.halo.min";
-import NET from "vanta/dist/vanta.net.min";
+import DOTS from "vanta/dist/vanta.dots.min";
 
 export default function Solutions() {
   const [vantaEffect1, setVantaEffect1] = useState(null);
@@ -52,20 +52,20 @@ export default function Solutions() {
   useEffect(() => {
     if (!vantaEffect3) {
       setVantaEffect3(
-        NET({
-          el: "#net",
-          backgroundColor: 0x252731,
-          color: 0x6478d1,
+        DOTS({
+          el: "#dots",
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          points: 7.0,
-          scaleMobile: 1.0,
-          maxDistance: 20.0,
-          spacing: 14.0,
+          minHeight: 700.00,
+          minWidth: 700.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0xe282b5,
+          color2: 0x5b51c4,
+          backgroundColor: 0x252731,
+          size: 0,
+          spacing: 10.00
         })
       );
     }
@@ -75,7 +75,7 @@ export default function Solutions() {
   }, [vantaEffect3]);
   return (
     <section>
-      <div className="py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-16">
+      <div className="py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-16" id="solutions">
         <div className="flex flex-col w-full text-center lg:mb-12">
           <h2 className="mb-8 text-6xl font-bold leading-none text-white lg:rounded-t-md">
             Solutions
@@ -145,24 +145,7 @@ export default function Solutions() {
                   <div className="w-[1300px] h-[1300px] bottom-20 -left-[650px]" id="trunk"></div>
                 </div>
                 <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-                  <div className="space-y-4 lg:space-y-8 lg:self-center">
-                    <div className="flex items-center text-moody">
-                      <svg
-                        className="w-6 h-6"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none rounded-e-tl-md"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                        />
-                      </svg>
-                    </div>
+                  <div className="space-y-4 lg:space-y-8 flex flex-col justify-center h-full">
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
                       Time Series Forecasting
                     </h2>
@@ -196,24 +179,8 @@ export default function Solutions() {
             <div className="mx-auto max-w-7xl">
               <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
                 <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-                  <div className="space-y-4 lg:space-y-8 lg:self-center">
-                    <div className="flex items-center text-moody">
-                      <svg
-                        className="w-6 h-6"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none rounded-e-tl-md"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                        />
-                      </svg>
-                    </div>
+                  <div className="space-y-4 lg:space-y-8 lg:self-center flex flex-col justify-center py-8">
+                    
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
                       Deep Neural Nets
                     </h2>
@@ -240,8 +207,8 @@ export default function Solutions() {
                   </div>
                 </div>
                 <div
-                  className="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-                  id="net"
+                  className="relative -top-20 -left-20 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
+                  id="dots"
                 ></div>
               </div>
             </div>

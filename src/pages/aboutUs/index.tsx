@@ -1,5 +1,4 @@
 import AboutUs from "../../components/aboutUs";
-import Company from "../../components/company";
 import Footer from "../../components/footer";
 import HeaderComponent from "../../components/header";
 

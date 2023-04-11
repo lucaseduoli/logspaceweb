@@ -21,7 +21,7 @@ export default function ContactUs() {
       });emailjs.init(emailkey.PUBLIC_KEY);
     }
   return (
-    <section id="contact" className="flex items-center justify-center h-screen min-h-full px-4 py-6 sm:px-6 lg:px-16">
+    <section id="contact" className="flex items-center justify-center min-h-full px-4 py-32 sm:px-6 lg:px-16">
       <div className="w-full max-w-md space-y-8 lg:max-w-3xl">
         <div className="text-center">
           <h2 className="mb-8 text-6xl font-bold leading-none text-white lg:rounded-t-md">

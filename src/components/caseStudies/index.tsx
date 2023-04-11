@@ -3,6 +3,10 @@ import twitter1 from "../../assets/images/twitter-1.png";
 import twitter2 from "../../assets/images/twitter-2.png";
 import twitter3 from "../../assets/images/twitter-3.png";
 import twitter4 from "../../assets/images/twitter-4.png";
+import twitter5 from "../../assets/images/twitter-5.png";
+import twitter6 from "../../assets/images/twitter-6.png";
+import twitter7 from "../../assets/images/twitter-7.png";
+import twitter8 from "../../assets/images/twitter-8.png";
 
 export default function CaseStudies() {
 	return (
@@ -29,6 +33,10 @@ export default function CaseStudies() {
                             <Mosaic image={twitter2} delay={300} />
                             <Mosaic image={twitter3} delay={600} />
                             <Mosaic image={twitter4} delay={900} />
+							<Mosaic image={twitter5} delay={1200} />
+                            <Mosaic image={twitter6} delay={1500} />
+                            <Mosaic image={twitter7} delay={1800} />
+                            <Mosaic image={twitter8} delay={2100} />
 						</dl>
 					</div>
 				</div>

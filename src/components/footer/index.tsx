@@ -3,19 +3,14 @@ import { ReactComponent as Logo } from "../../assets/logo.svg";
 const company = [
   {
     name: "About us",
-    href: "#",
+    href: "/logspaceweb/#/aboutus",
     description:
       "Learn more about our company values and mission to empower others",
   },
-  {
-    name: "Careers",
-    href: "#",
-    description:
-      "Looking for you next career opportunity? See all of our open positions",
-  },
+  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us" },
   {
     name: "Support",
-    href: "#",
+    href: "http://localhost:3001/logspaceweb/#/contactus",
     description:
       "Get in touch with our dedicated support team or reach out on our community forums",
   },
@@ -23,29 +18,16 @@ const company = [
 
 const openSource = [
   {
-    name: "Install",
-    href: "#",
-    description: "Download, install, and start labeling in 10 minutes.",
+    name: "⛓️ LangFlow",
+    href: "https://github.com/logspace-ai/langflow",
+    description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box.",
   },
   {
-    name: "Github",
-    href: "#",
-    description: "Explore our project on Github.",
+    name: "≈ Wavy ≈",
+    href: "https://github.com/logspace-ai/wavy",
+    description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage.",
   },
-];
-const resources = [
-  {
-    name: "Documentation",
-    href: "#",
-    description: "See the documentation of our projects",
-  },
-  { name: "Blog", href: "#", description: "Read the lastests new about us" },
-  {
-    name: "Integrations",
-    href: "#",
-    description:
-      "Choose from a wide range of third-party tools and applications ",
-  },
+
 ];
 
 export default function Footer() {
@@ -82,8 +64,7 @@ export default function Footer() {
                   </h3>
                   <div className="mt-4">
                     <span className="text-base font-light text-santa">
-                      Logspace is a software company specialized in providing
-                      customized Machine Learning services.
+                    AI solutions powered by state-of-the-art technologies, with pipelines that start from research all the way up to deployment.
                     </span>
                   </div>
                 </div>
@@ -91,7 +72,7 @@ export default function Footer() {
                   <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     Navigation
                   </h3>
-                  <ul role="list" className="mt-4 space-y-4">
+                  <ul role="list" className="mt-4 space-y-2">
                     <li>
                       <a
                         href="/"
@@ -101,20 +82,14 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://medium.com/logspace"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        Blog & News
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://logspace.ai/"
+                      <button
+                        onClick={() => {
+                          document.querySelector( '#solutions' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+                        }}
                         className="text-base font-light text-santa hover:text-white"
                       >
                         Solutions
-                      </a>
+                      </button>
                     </li>
                     <li>
                       <a
@@ -126,7 +101,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="mailto:contact@logspace.ai"
+                        href="http://localhost:3001/logspaceweb/#/contactus"
                         className="text-base font-light text-santa hover:text-white"
                       >
                         Contact Us
@@ -139,7 +114,7 @@ export default function Footer() {
                   <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     Company
                   </h3>
-                  <ul role="list" className="mt-4 space-y-4">
+                  <ul role="list" className="mt-4 space-y-2">
                     {company.map(c => (
                       <li>
                       <a
@@ -156,23 +131,8 @@ export default function Footer() {
         <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     Open Source
                   </h3>
-                  <ul role="list" className="mt-4 space-y-4">
+                  <ul role="list" className="mt-4 space-y-2">
                     {openSource.map(c => (
-                      <li>
-                      <a
-                        href={c.href}
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        {c.name}
-                      </a>
-                    </li>
-                    ))}
-                  </ul>
-                  <h3 className="text-sm mt-8 font-bold tracking-wider text-white uppercase">
-                    Resources
-                  </h3>
-                  <ul role="list" className="mt-4 space-y-4">
-                    {resources.map(c => (
                       <li>
                       <a
                         href={c.href}

@@ -10,16 +10,10 @@ const company = [
     description:
       "Learn more about our company values and mission to empower others",
   },
-  {
-    name: "Careers",
-    href: "#",
-    description:
-      "Looking for you next career opportunity? See all of our open positions",
-  },
-  { name: "Blog", href: "#", description: "Read the lastests new about us" },
+  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us" },
   {
     name: "Support",
-    href: "#",
+    href: "http://localhost:3001/logspaceweb/#/contactus",
     description:
       "Get in touch with our dedicated support team or reach out on our community forums",
   },
@@ -27,20 +21,16 @@ const company = [
 
 const openSource = [
   {
-    name: "Install",
-    href: "#",
-    description: "Download, install, and start labeling in 10 minutes.",
+    name: "⛓️ LangFlow",
+    href: "https://github.com/logspace-ai/langflow",
+    description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box.",
   },
   {
-    name: "Documentation",
-    href: "#",
-    description: "See the documentation of our projects",
+    name: "≈ Wavy ≈",
+    href: "https://github.com/logspace-ai/wavy",
+    description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage.",
   },
-  {
-    name: "Github",
-    href: "#",
-    description: "Explore our project on Github.",
-  },
+
 ];
 
 
@@ -64,12 +54,14 @@ export default function HeaderComponent() {
             " items-center flex-grow px-5 md:pb-0 md:flex md:justify-end flex-row hidden"
           }
         >
-          <a
+          <button
             className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-auto hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
-            href="https://logspace.ai/"
+            onClick={() => {
+              document.querySelector( '#solutions' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+            }}
           >
             Solutions
-          </a>
+          </button>
           <a
             className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
             href="#"
