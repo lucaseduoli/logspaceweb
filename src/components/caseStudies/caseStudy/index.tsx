@@ -7,7 +7,7 @@ export default function CaseStudy({
   results,
   image,
 }: {
-  href: string;
+  href?: string;
   title: string;
   description: string;
   problem: string;
@@ -18,7 +18,7 @@ export default function CaseStudy({
   return (
     <div className="overflow-hidden">
       <div
-        className="py-16 lg:mx-auto lg:max-w-7xl lg:px-16 flex flex-col shadow-thick bg-cinder rounded-2xl"
+        className="py-16 my-8 lg:mx-auto lg:max-w-7xl lg:px-16 flex flex-col shadow-thick bg-cinder rounded-2xl"
         data-aos="fade-left"
         data-aos-duration="2000"
       >
@@ -49,7 +49,7 @@ export default function CaseStudy({
           <div className="mt-12 rounded-xl sm:mt-16 lg:mt-0 w-96">
             <div className="">
               <img
-                className=" ring-1 ring-pearl ring-opacity-5"
+                className=" ring-1 ring-pearl ring-opacity-5 rounded-xl"
                 src={image}
                 alt={title}
               />

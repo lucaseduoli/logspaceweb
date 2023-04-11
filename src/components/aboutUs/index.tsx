@@ -58,11 +58,14 @@ export default function AboutUs() {
                 </p>
               </div>
             </main>
-            <div className="grid my-12 gap-x-16 grid-cols-6 max-w-2xl ml-auto mr-auto">
-              <a href="https://www.linkedin.com/in/rodrigo-nader-673163bb/">
+            <div className="grid my-12 gap-x-4 grid-cols-6 max-w-2xl ml-auto mr-auto">
+              <a
+                href="https://www.linkedin.com/in/rodrigo-nader-673163bb/"
+                className="text-center"
+              >
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C4D03AQGL-szmiHGgqA/profile-displayphoto-shrink_200_200/0/1526259222508?e=1684972800&v=beta&t=5TX618TmK48CBJHTShxhWvrt-vtYISjMXEjuPbamIcE"
                     alt="Rodrigo Nader on Linkedin"
                     width="1310"
@@ -76,7 +79,7 @@ export default function AboutUs() {
               <a href="https://www.linkedin.com/in/ogabrielluiz/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C4D03AQE0FdYxVREEeQ/profile-displayphoto-shrink_200_200/0/1541646587416?e=1684972800&v=beta&t=fRcyluwIK0u_xX49lEnV9fgtKIs92Zx6_ZR15qaAem4"
                     alt="Gabriel Luiz Freitas Almeida on Linkedin"
                     width="1310"
@@ -88,72 +91,90 @@ export default function AboutUs() {
                 </figure>
               </a>
             </div>
-            <div className="grid my-12 gap-x-16 grid-cols-6 max-w-2xl ml-auto mr-auto">
+            <div className="grid my-12 gap-x-4 grid-cols-6 max-w-2xl ml-auto mr-auto">
               <a href="https://www.linkedin.com/in/otavio-anovazzi-104535206/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C5603AQGtLJqF_MrQeA/profile-displayphoto-shrink_200_200/0/1628185122820?e=1684972800&v=beta&t=2DnDS-AFSZA0A86luEY2q1QA2JOedKECVc7pKwXcRjI"
                     alt="Otavio Anovazzi on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Front-end Developer
+                </figcaption>
               </a>
               <a href="https://www.linkedin.com/in/carlosrodrigocoelho/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C4E03AQHBc-n_Ns0LNw/profile-displayphoto-shrink_200_200/0/1590614498030?e=1684972800&v=beta&t=OL-IegYUfLwflvGSN7pqOjcsY48Dp2MUoFjq-Db2f5s"
                     alt="Carlos Rodrigo on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Data Scientist
+                </figcaption>
               </a>
               <a href="https://www.linkedin.com/in/ibiscp/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C5603AQFHnWuckvU-Kg/profile-displayphoto-shrink_200_200/0/1581501245426?e=1684972800&v=beta&t=gZSEbm1jw6Kq3Z3E2Ni9cCDODYMxfDWnFDIA6CASyUw"
                     alt="Ibis Prevedello on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Machine Learning Engineer
+                </figcaption>
               </a>
               <a href="https://www.linkedin.com/in/lucas-oliveira-92266520b/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C4E03AQG0YoTeTagZIg/profile-displayphoto-shrink_200_200/0/1618114751659?e=1684972800&v=beta&t=xLyjYN9zl3juTJYJzpygVPcTllc9VJbviE1SjfJ9q_M"
                     alt="Lucas Oliveira on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Front-end Developer
+                </figcaption>
               </a>
               <a href="https://www.linkedin.com/in/matheus-jacques/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://media.licdn.com/dms/image/C4E03AQFfFCPzAhg3Eg/profile-displayphoto-shrink_800_800/0/1646045907868?e=1686787200&v=beta&t=XgAVfdvL2YarI1LhW9U06SfRHA8kN4OJMTnCcTAKZPM"
                     alt="Matheus Jacques on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Data Scientist
+                </figcaption>
               </a>
               <a href="https://www.linkedin.com/in/jackson-bolcer-63446a241/">
                 <figure>
                   <img
-                    className="w-full rounded-full shadow-thick border-river"
+                    className="w-16 mx-auto rounded-full shadow-thick border-river"
                     src="https://ca.slack-edge.com/T01RA4X4X35-U049NPEAC12-e9c8aa63dfbc-512"
                     alt="Jackson Bolcer on Linkedin"
                     width="1310"
                     height="873"
                   />
                 </figure>
+                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
+                  Data Scientist Intern
+                </figcaption>
               </a>
             </div>
           </div>
