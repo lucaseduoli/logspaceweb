@@ -133,6 +133,28 @@ export default function AboutUs() {
                   />
                 </figure>
               </a>
+              <a href="https://www.linkedin.com/in/matheus-jacques/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://media.licdn.com/dms/image/C4E03AQFfFCPzAhg3Eg/profile-displayphoto-shrink_800_800/0/1646045907868?e=1686787200&v=beta&t=XgAVfdvL2YarI1LhW9U06SfRHA8kN4OJMTnCcTAKZPM"
+                    alt="Matheus Jacques on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
+              <a href="https://www.linkedin.com/in/jackson-bolcer-63446a241/">
+                <figure>
+                  <img
+                    className="w-full rounded-full shadow-thick border-river"
+                    src="https://ca.slack-edge.com/T01RA4X4X35-U049NPEAC12-e9c8aa63dfbc-512"
+                    alt="Jackson Bolcer on Linkedin"
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </a>
             </div>
           </div>
         </div>
