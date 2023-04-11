@@ -119,6 +119,7 @@ export default function Footer() {
                       <li>
                       <a
                         href={c.href}
+
                         className="text-base font-light text-santa hover:text-white"
                       >
                         {c.name}
@@ -136,6 +137,7 @@ export default function Footer() {
                       <li>
                       <a
                         href={c.href}
+                        target="_blank" rel="noreferrer" 
                         className="text-base font-light text-santa hover:text-white"
                       >
                         {c.name}
@@ -156,6 +158,7 @@ export default function Footer() {
           <div className="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
             <a
               href="https://www.linkedin.com/company/logspace-ai/"
+              target="_blank" rel="noreferrer" 
               className="text-santa hover:text-white"
             >
               <span className="sr-only">Linkedin</span>
@@ -172,6 +175,7 @@ export default function Footer() {
             <a
               href="mailto:contact@logspace.ai"
               className="text-santa hover:text-white"
+              target="_blank" rel="noreferrer" 
             >
               <span className="sr-only">Email</span>
               <svg
@@ -186,6 +190,7 @@ export default function Footer() {
 
             <a
               href="https://twitter.com/logspace_ai"
+              target="_blank" rel="noreferrer" 
               className="text-santa hover:text-white"
             >
               <span className="sr-only">Twitter</span>
@@ -201,6 +206,7 @@ export default function Footer() {
 
             <a
               href="https://github.com/logspace-ai/langflow"
+              target="_blank" rel="noreferrer" 
               className="text-santa hover:text-white"
             >
               <span className="sr-only">GitHub</span>

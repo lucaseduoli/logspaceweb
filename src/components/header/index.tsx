@@ -86,6 +86,7 @@ export default function HeaderComponent() {
 
           <a
             href="https://www.linkedin.com/company/logspace-ai/"
+            target="_blank" rel="noreferrer" 
             className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-4"
           >
             <span className="sr-only">Linkedin</span>
@@ -102,6 +103,7 @@ export default function HeaderComponent() {
 
           <a
             href="https://youtube.com/@logspace_ai"
+            target="_blank" rel="noreferrer" 
             className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-4"
           >
             <span className="sr-only">Youtube</span>
@@ -127,6 +129,7 @@ export default function HeaderComponent() {
 
           <a
             href="https://twitter.com/logspace_ai"
+            target="_blank" rel="noreferrer" 
             className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-4"
           >
             <span className="sr-only">Twitter</span>
@@ -142,6 +145,7 @@ export default function HeaderComponent() {
 
           <a
             href="https://github.com/logspace-ai/langflow"
+            target="_blank" rel="noreferrer" 
             className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-3"
           >
             <span className="sr-only">GitHub</span>

@@ -24,7 +24,7 @@ export default function Dropdown({children, items}: {children: string, items: {n
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-96 rounded-3xl bg-white p-4 shadow-lg ring-1 ring-gray-900/5">
                 {items.map((item) => (
                   <div key={item.name} className="relative rounded-lg p-4 hover:bg-gray-50">
-                    <a href={item.href} className="block text-sm font-semibold leading-6 text-gray-900">
+                    <a href={item.href} target="_blank" rel="noreferrer" className="block text-sm font-semibold leading-6 text-gray-900">
                       {item.name}
                       <span className="absolute inset-0" />
                     </a>
