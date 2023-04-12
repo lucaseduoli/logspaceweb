@@ -1,4 +1,5 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import jackson from "../../assets/images/jackson.png";
 
 export default function AboutUs() {
   return (
@@ -166,7 +167,7 @@ export default function AboutUs() {
                 <figure>
                   <img
                     className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://files.slack.com/files-pri/T01RA4X4X35-F053F8FCZU0/img_6021.jpg"
+                    src={jackson}
                     alt="Jackson Bolcer on Linkedin"
                     width="1310"
                     height="873"

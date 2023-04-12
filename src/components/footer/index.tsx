@@ -1,18 +1,21 @@
+import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 const company = [
   {
     name: "About us",
-    href: "/logspaceweb/#/aboutus",
+    href: "/aboutus",
     description:
       "Learn more about our company values and mission to empower others",
+    newTab: false,
   },
-  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us" },
+  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us", newTab: true, },
   {
     name: "Support",
-    href: "http://localhost:3001/logspaceweb/#/contactus",
+    href: "/contactus",
     description:
       "Get in touch with our dedicated support team or reach out on our community forums",
+      newTab: false,
   },
 ];
 
@@ -20,14 +23,15 @@ const openSource = [
   {
     name: "⛓️ LangFlow",
     href: "https://github.com/logspace-ai/langflow",
-    description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box.",
+    description:
+      "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box.",
   },
   {
     name: "≈ Wavy ≈",
     href: "https://github.com/logspace-ai/wavy",
-    description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage.",
+    description:
+      "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage.",
   },
-
 ];
 
 export default function Footer() {
@@ -49,12 +53,11 @@ export default function Footer() {
                   <div className="flex flex-col">
                     Logspace
                     <p className="text-sm font-normal text-santa">
-                    Transforming the path to AI Integration
+                      Transforming the path to AI Integration
                     </p>
                   </div>
                 </div>
               </span>
-              
             </div>
             <div className="mt-12 xl:mt-0 xl:col-span-2">
               <div className="md:grid md:grid-cols-4 md:gap-16">
@@ -64,7 +67,9 @@ export default function Footer() {
                   </h3>
                   <div className="mt-4">
                     <span className="text-base font-light text-santa">
-                    AI solutions powered by state-of-the-art technologies, with pipelines that start from research all the way up to deployment.
+                      AI solutions powered by state-of-the-art technologies,
+                      with pipelines that start from research all the way up to
+                      deployment.
                     </span>
                   </div>
                 </div>
@@ -74,40 +79,68 @@ export default function Footer() {
                   </h3>
                   <ul role="list" className="mt-4 space-y-2">
                     <li>
-                      <a
-                        href="/"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        Home
-                      </a>
+                    <Link
+                          to={"/"}
+                          onClick={() => {setTimeout(() => {
+                            document
+                              .querySelector("#top")
+                              ?.scrollIntoView({
+                                block: "start",
+                              });
+                          }, 50);}}
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          Home
+                        </Link>
                     </li>
                     <li>
-                      <button
-                        onClick={() => {
-                          document.querySelector( '#solutions' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
-                        }}
+                      <Link
                         className="text-base font-light text-santa hover:text-white"
+                        to="/"
+                        onClick={() => {
+                          setTimeout(() => {
+                            document
+                              .querySelector("#solutions")
+                              ?.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                              });
+                          }, 50);
+                        }}
                       >
                         Solutions
-                      </button>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/logspaceweb/#/casestudies"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        Case Studies
-                      </a>
+                    <Link
+                          to={"/casestudies"}
+                          onClick={() => {setTimeout(() => {
+                            document
+                              .querySelector("#top")
+                              ?.scrollIntoView({
+                                block: "start",
+                              });
+                          }, 50);}}
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          Case Studies
+                        </Link>
                     </li>
                     <li>
-                      <a
-                        href="http://localhost:3001/logspaceweb/#/contactus"
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        Contact Us
-                      </a>
+                    <Link
+                          to={"/contactus"}
+                          onClick={() => {setTimeout(() => {
+                            document
+                              .querySelector("#top")
+                              ?.scrollIntoView({
+                                block: "start",
+                              });
+                          }, 50);}}
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          Contact Us
+                        </Link>
                     </li>
-                    
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
@@ -115,50 +148,68 @@ export default function Footer() {
                     Company
                   </h3>
                   <ul role="list" className="mt-4 space-y-2">
-                    {company.map(c => (
+                    {company.map((c) => (
+                      c.newTab ?
                       <li>
-                      <a
-                        href={c.href}
-
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        {c.name}
-                      </a>
-                    </li>
+                        <a
+                          href={c.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          {c.name}
+                        </a>
+                      </li>
+                      :
+                      <li>
+                        <Link
+                          to={c.href}
+                          onClick={() => {setTimeout(() => {
+                            document
+                              .querySelector("#top")
+                              ?.scrollIntoView({
+                                block: "start",
+                              });
+                          }, 50);}}
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          {c.name}
+                        </Link>
+                      </li>
                     ))}
                   </ul>
                 </div>
-				<div className="mt-12 md:mt-0">
-        <h3 className="text-sm font-bold tracking-wider text-white uppercase">
+                <div className="mt-12 md:mt-0">
+                  <h3 className="text-sm font-bold tracking-wider text-white uppercase">
                     Open Source
                   </h3>
                   <ul role="list" className="mt-4 space-y-2">
-                    {openSource.map(c => (
+                    {openSource.map((c) => (
                       <li>
-                      <a
-                        href={c.href}
-                        target="_blank" rel="noreferrer" 
-                        className="text-base font-light text-santa hover:text-white"
-                      >
-                        {c.name}
-                      </a>
-                    </li>
+                        <a
+                          href={c.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-base font-light text-santa hover:text-white"
+                        >
+                          {c.name}
+                        </a>
+                      </li>
                     ))}
                   </ul>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-        
       </footer>
       <footer className="border-t border-tuna bg-cinder">
         <div className="px-5 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
           <div className="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
             <a
               href="https://www.linkedin.com/company/logspace-ai/"
-              target="_blank" rel="noreferrer" 
+              target="_blank"
+              rel="noreferrer"
               className="text-santa hover:text-white"
             >
               <span className="sr-only">Linkedin</span>
@@ -175,7 +226,8 @@ export default function Footer() {
             <a
               href="mailto:contact@logspace.ai"
               className="text-santa hover:text-white"
-              target="_blank" rel="noreferrer" 
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="sr-only">Email</span>
               <svg
@@ -190,7 +242,8 @@ export default function Footer() {
 
             <a
               href="https://twitter.com/logspace_ai"
-              target="_blank" rel="noreferrer" 
+              target="_blank"
+              rel="noreferrer"
               className="text-santa hover:text-white"
             >
               <span className="sr-only">Twitter</span>
@@ -206,7 +259,8 @@ export default function Footer() {
 
             <a
               href="https://github.com/logspace-ai/langflow"
-              target="_blank" rel="noreferrer" 
+              target="_blank"
+              rel="noreferrer"
               className="text-santa hover:text-white"
             >
               <span className="sr-only">GitHub</span>

@@ -2,6 +2,8 @@ import Dropdown from "../dropdown";
 
 import logo from "../../assets/logo.svg";
 import { ReactComponent as Github } from "../../assets/images/github logo.svg";
+import { redirect } from "react-router";
+import { Link } from "react-router-dom";
 
 const company = [
   {
@@ -9,13 +11,15 @@ const company = [
     href: "/logspaceweb/#/aboutus",
     description:
       "Learn more about our company values and mission to empower others",
+    newTab: false,
   },
-  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us" },
+  { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us", newTab: true, },
   {
     name: "Support",
     href: "http://localhost:3001/logspaceweb/#/contactus",
     description:
       "Get in touch with our dedicated support team or reach out on our community forums",
+      newTab: false,
   },
 ];
 
@@ -24,11 +28,13 @@ const openSource = [
     name: "⛓️ LangFlow",
     href: "https://github.com/logspace-ai/langflow",
     description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box",
+    newTab: true,
   },
   {
     name: "≈ Wavy ≈",
     href: "https://github.com/logspace-ai/wavy",
     description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage",
+    newTab: true,
   },
 
 ];
@@ -36,7 +42,7 @@ const openSource = [
 
 export default function HeaderComponent() {
   return (
-    <header className="w-full text-gray-400 border-b bg-pearl border-cinder">
+    <header className="w-full text-gray-400 border-b bg-pearl border-cinder" id="top">
       <div className="flex flex-col w-full px-4 mx-auto bg-bunker md:items-center md:justify-between md:flex-row md:px-6 lg:px-16 max-w-[90rem]">
         <div className="flex flex-row items-center justify-between py-2 lg:py-0">
           <a
@@ -54,14 +60,15 @@ export default function HeaderComponent() {
             " items-center flex-grow px-5 md:pb-0 md:flex md:justify-end flex-row hidden"
           }
         >
-          <button
+          <Link
             className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-auto hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
+            to="/"
             onClick={() => {
-              document.querySelector( '#solutions' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+              setTimeout(() => {document.querySelector( '#solutions' )?.scrollIntoView( { behavior: 'smooth', block: 'start' } )}, 50);
             }}
           >
             Solutions
-          </button>
+          </Link>
           <a
             className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"
             href="/logspaceweb/#/casestudies"
@@ -70,11 +77,11 @@ export default function HeaderComponent() {
           </a>
 
           <div className="px-4 py-2 mt-2 text-base bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
-            <Dropdown newTab={true} items={openSource}>Open Source</Dropdown>
+            <Dropdown items={openSource}>Open Source</Dropdown>
           </div>
 
           <div className="px-4 py-2 mt-2 text-base mr-auto bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2">
-            <Dropdown newTab={false} items={company}>Company</Dropdown>
+            <Dropdown items={company}>Company</Dropdown>
           </div>
           {/* <a
 							className="px-4 py-2 mt-2 text-base transition duration-500 ease-in-out mr-auto transform bg-transparent rounded-lg text-magnesium lg:text-base md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-pearl focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2"

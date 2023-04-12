@@ -4,12 +4,10 @@ import { Fragment } from "react";
 
 export default function Dropdown({
   children,
-  newTab,
   items,
 }: {
   children: string;
-  newTab: boolean;
-  items: { name: string; href: string; description: string }[];
+  items: { name: string; href: string; description: string, newTab: boolean }[];
 }) {
   return (
     <Popover className="relative">
@@ -36,7 +34,7 @@ export default function Dropdown({
               key={item.name}
               className="relative rounded-lg p-4 hover:bg-gray-50"
             >
-              {newTab ? (
+              {item.newTab ? (
                 <a
                   href={item.href}
                   target="_blank"
