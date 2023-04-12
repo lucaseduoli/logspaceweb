@@ -67,7 +67,7 @@ export default function CaseStudies() {
                   className="flex items-center"
                   data-aos="zoom-in"
                   data-aos-duration="300"
-                  data-aos-delay="6000"
+                  data-aos-delay="600"
                   data-aos-anchor="#top"
                 >
                   <img className="h-10 mx-auto" src={ifood} alt="iFood" />
@@ -121,12 +121,12 @@ export default function CaseStudies() {
           image={woohooCase}
         />
         <CaseStudy
-          title={"sapiens.agro"}
+          title={"Sapiens Agro"}
           description={
             "A platform for monitoring and prediction of the direction of future commodity contracts."
           }
           problem={
-            "sapiens.agro needed a platform to monitor and predict the direction of future commodity contracts with greater accuracy."
+            "Sapiens Agro needed a platform to monitor and predict the direction of future commodity contracts with greater accuracy."
           }
           solution={
             "Logspace developed and integrated prediction algorithms that increased the accuracy of monitoring and predicting future commodity contracts. Additionally, they implemented an NLP system to analyze future commodity sentiment."

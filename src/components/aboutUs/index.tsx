@@ -166,7 +166,7 @@ export default function AboutUs() {
                 <figure>
                   <img
                     className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://ca.slack-edge.com/T01RA4X4X35-U049NPEAC12-e9c8aa63dfbc-512"
+                    src="https://files.slack.com/files-pri/T01RA4X4X35-F053F8FCZU0/img_6021.jpg"
                     alt="Jackson Bolcer on Linkedin"
                     width="1310"
                     height="873"

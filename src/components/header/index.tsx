@@ -23,12 +23,12 @@ const openSource = [
   {
     name: "⛓️ LangFlow",
     href: "https://github.com/logspace-ai/langflow",
-    description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box.",
+    description: "LangFlow is a GUI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows with drag-and-drop components and a chat box",
   },
   {
     name: "≈ Wavy ≈",
     href: "https://github.com/logspace-ai/wavy",
-    description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage.",
+    description: "Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage",
   },
 
 ];

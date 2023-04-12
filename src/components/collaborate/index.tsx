@@ -1,4 +1,5 @@
 import langflow from "../../assets/gifs/langflow-demo.gif";
+import wavy from "../../assets/images/wavy.png";
 
 export default function Collaborate() {
   return (
@@ -81,7 +82,7 @@ export default function Collaborate() {
               <div className="pl-5 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full bg-cover shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto max-w-3xl"
-                  src={langflow}
+                  src={wavy}
                   alt="Inbox user interface"
                 />
               </div>
