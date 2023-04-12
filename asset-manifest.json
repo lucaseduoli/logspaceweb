@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/logspaceweb/static/css/main.f97b6bc6.css",
-    "main.js": "/logspaceweb/static/js/main.ad7dc779.js",
+    "main.js": "/logspaceweb/static/js/main.7385debd.js",
     "static/js/787.a1c8b712.chunk.js": "/logspaceweb/static/js/787.a1c8b712.chunk.js",
     "static/media/langflow-demo.gif": "/logspaceweb/static/media/langflow-demo.408fc351b8ca28137ca1.gif",
+    "static/media/jackson.png": "/logspaceweb/static/media/jackson.592d1219193481e001a6.png",
     "static/media/bitvore.png": "/logspaceweb/static/media/bitvore.5c2efcd2ed17333f0513.png",
     "static/media/woohoo.png": "/logspaceweb/static/media/woohoo.5325a11511c0d34e683f.png",
     "static/media/sapiens.png": "/logspaceweb/static/media/sapiens.f8870161c863e9dd2d0b.png",
@@ -25,11 +26,11 @@
     "static/media/logo.svg": "/logspaceweb/static/media/logo.964f08597e7354e27c8ac05dc9c4d1f6.svg",
     "index.html": "/logspaceweb/index.html",
     "main.f97b6bc6.css.map": "/logspaceweb/static/css/main.f97b6bc6.css.map",
-    "main.ad7dc779.js.map": "/logspaceweb/static/js/main.ad7dc779.js.map",
+    "main.7385debd.js.map": "/logspaceweb/static/js/main.7385debd.js.map",
     "787.a1c8b712.chunk.js.map": "/logspaceweb/static/js/787.a1c8b712.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f97b6bc6.css",
-    "static/js/main.ad7dc779.js"
+    "static/js/main.7385debd.js"
   ]
 }
