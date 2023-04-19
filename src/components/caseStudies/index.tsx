@@ -87,7 +87,7 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
-      <section className="relative items-center w-full px-5 mx-auto pb-44 md:px-12 lg:px-20">
+      <section className="relative items-center w-full px-5 mx-auto pb-20 md:px-12 lg:px-20">
         <CaseStudy
           title={"iFood"}
           description={

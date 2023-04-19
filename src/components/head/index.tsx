@@ -37,7 +37,7 @@ export default function Head() {
   return (
     <section className="relative w-full">
       <div className="w-full h-full" id="vantaRef">
-        <div className="relative items-center w-full px-5 py-40 pb-72 mx-auto md:px-12 lg:px-16 max-w-7xl">
+        <div className="relative items-center w-full px-5 py-20 md:py-40 md:pb-72 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div className="flex w-full mx-auto text-left lg:mt-16">
             <div className="relative flex flex-col items-center m-auto align-middle">
               <div id="top" className="max-w-3xl space-y-4 lg:text-center">

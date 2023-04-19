@@ -33,7 +33,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="relative items-center w-full px-5 mx-auto pb-44 md:px-12 lg:px-20 max-w-7xl">
+      <section className="relative items-center w-full px-5 mx-auto pb-20 md:px-12 lg:px-20 max-w-7xl">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
             <h1 className="text-4xl font-bold text-white">Who We Are</h1>
@@ -221,7 +221,7 @@ export default function AboutUs() {
             </main>
           </div>
         </div>
-        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-32 md:px-12 lg:px-16 max-w-5xl">
+        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-10 md:px-12 lg:px-16 max-w-5xl">
           <div className="pt-12">
             <div className="max-w-xl mx-auto lg:max-w-7xl">
               <h2 className="sr-only">Title text for screen readers</h2>
