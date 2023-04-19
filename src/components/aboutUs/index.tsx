@@ -23,7 +23,7 @@ export default function AboutUs() {
                     </span>
                   </h1>
                   <p className="mb-6 text-xl font-light text-smoke">
-                    Logspace provides custom machine learning solutions for
+                    Logspace develops AI integration solutions for
                     businesses and organizations, with pipelines covering the
                     entire process from experimentation to deployment.{" "}
                   </p>
@@ -48,8 +48,7 @@ export default function AboutUs() {
                 </p>
                 <p className="mt-4 text-lg text-santa">
                   Our mission is to help businesses integrate Machine Learning
-                  into their processes by providing affordable and hands-on
-                  services, saving misused resources and time.
+                  into their processes by providing AI integration tools to save misused resources and time.
                 </p>
                 <p className="mt-4 text-lg text-santa">
                   We are currently working with governments, financial
