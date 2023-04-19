@@ -89,26 +89,9 @@ export default function Solutions() {
         <div className="space-y-8">
           <div className="px-5 lg:px-0">
             <div className="mx-auto max-w-7xl">
-              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
-                <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+              <div className="overflow-hidden h-[544px] rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
+                <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                   <div className="space-y-4 lg:space-y-8 lg:self-center">
-                    <div className="flex items-center text-moody">
-                      <svg
-                        className="w-6 h-6"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none rounded-e-tl-md"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                        />
-                      </svg>
-                    </div>
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
                       Natural Language Processing
                     </h2>
@@ -126,7 +109,7 @@ export default function Solutions() {
                       <div className="my-3 rounded-lg sm:mt-0">
                         <a
                           href="#"
-                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform rounded-t-none hover:text-flamingo focus:outline-none"
+                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform rounded-t-none hover:text-majorelly focus:outline-none"
                         >
                           Learn more &rarr;
                         </a>
@@ -144,7 +127,7 @@ export default function Solutions() {
                 <div className="overflow-hidden h-[544px]">
                   <div className="w-[1300px] h-[1300px] bottom-20 -left-[650px]" id="trunk"></div>
                 </div>
-                <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                   <div className="space-y-4 lg:space-y-8 flex flex-col justify-center h-full">
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
                       Time Series Forecasting
@@ -164,7 +147,7 @@ export default function Solutions() {
                       <div className="my-3 rounded-lg sm:mt-0">
                         <a
                           href="#"
-                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform rounded-t-none hover:text-flamingo focus:outline-none"
+                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform rounded-t-none hover:text-majorelly focus:outline-none"
                         >
                           Learn more &rarr;
                         </a>
@@ -177,8 +160,8 @@ export default function Solutions() {
           </div>
           <div className="px-5 lg:px-0">
             <div className="mx-auto max-w-7xl">
-              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
-                <div className="px-6 pt-10 pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+              <div className="overflow-hidden h-[544px] rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
+                <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                   <div className="space-y-4 lg:space-y-8 lg:self-center flex flex-col justify-center py-8">
                     
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
@@ -198,7 +181,7 @@ export default function Solutions() {
                       <div className="my-3 rounded-lg sm:mt-0">
                         <a
                           href="#"
-                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform hover:text-flamingo focus:outline-none"
+                          className="text-base font-medium text-center text-white transition duration-500 ease-in-out transform hover:text-majorelly focus:outline-none"
                         >
                           Learn more &rarr;
                         </a>

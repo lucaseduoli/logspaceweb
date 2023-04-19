@@ -151,7 +151,7 @@ export default function HeaderComponent() {
           </a>
 
           <a
-            href="https://github.com/logspace-ai/langflow"
+            href="https://github.com/logspace-ai"
             target="_blank" rel="noreferrer" 
             className="pr-2 mt-2 text-base hover:text-white transition duration-500  ease-in-out transform md:mt-0 md:ml-3"
           >
