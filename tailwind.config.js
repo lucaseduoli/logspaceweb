@@ -140,5 +140,34 @@ module.exports = {
 				});
 			});
 		}),
+		plugin(function ({ addUtilities }) {
+			addUtilities({
+			  '.scrollbar-hide': {
+				/* IE and Edge */
+				'-ms-overflow-style': 'none',
+				/* Firefox */
+				'scrollbar-width': 'none',
+				/* Safari and Chrome */
+				'&::-webkit-scrollbar': {
+				  display: 'none'
+				}
+			  },
+			  '.arrow-hide':{
+				'&::-webkit-inner-spin-button':{
+				  '-webkit-appearance': 'none',
+				  'margin': 0
+				},
+				'&::-webkit-outer-spin-button':{
+				  '-webkit-appearance': 'none',
+				  'margin': 0
+				},
+			  },
+			  '.password':{
+				"-webkit-text-security":"disc",
+				"font-family": "text-security-disc"
+	  
+			  }
+			})
+		}),
 	],
 };

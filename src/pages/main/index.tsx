@@ -6,6 +6,7 @@ import Footer from "../../components/footer";
 import Head from "../../components/head";
 import HeaderComponent from "../../components/header";
 import Solutions from "../../components/solutions";
+import AboutUs from "../../components/aboutUs";
 
 export default function MainPage() {
   return (
@@ -16,20 +17,15 @@ export default function MainPage() {
     <div className="w-full h-full bg-mirage overflow-x-hidden ">
       <div className="relative">
 
-      <HeaderComponent />
       </div>
       <div className="w-full">
-        <Head />
         
         <div className="w-full relative">
-          <Collaborate />
-          <Community />
           <Solutions />
         </div>
       </div>
       <div className="relative">
 
-      <Footer />
       </div>
     </div>
     </>

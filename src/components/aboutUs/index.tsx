@@ -6,7 +6,7 @@ export default function AboutUs() {
     <>
       <section className="relative w-full">
         <div className="w-full h-full" id="vantaRef">
-          <div className="relative items-center w-full px-5 py-32 mx-auto md:px-12 lg:px-16 max-w-7xl">
+          <div className="relative items-center w-full px-5 py-32 pt-96 mx-auto md:px-12 lg:px-16 max-w-7xl">
             <div className="flex w-full mx-auto text-left">
               <div className="relative flex flex-col items-center m-auto align-middle">
                 <div id="top" className="max-w-3xl space-y-4 lg:text-center">
@@ -23,7 +23,7 @@ export default function AboutUs() {
                     </span>
                   </h1>
                   <p className="mb-6 text-xl font-light text-smoke">
-                    Logspace provides custom machine learning solutions for
+                    Logspace develops AI integration solutions for
                     businesses and organizations, with pipelines covering the
                     entire process from experimentation to deployment.{" "}
                   </p>
@@ -33,7 +33,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="relative items-center w-full px-5 mx-auto pb-44 md:px-12 lg:px-20 max-w-7xl">
+      <section className="relative items-center w-full px-5 mx-auto pb-20 md:px-12 lg:px-20 max-w-7xl">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
             <h1 className="text-4xl font-bold text-white">Who We Are</h1>
@@ -48,8 +48,7 @@ export default function AboutUs() {
                 </p>
                 <p className="mt-4 text-lg text-santa">
                   Our mission is to help businesses integrate Machine Learning
-                  into their processes by providing affordable and hands-on
-                  services, saving misused resources and time.
+                  into their processes by providing AI integration tools to save misused resources and time.
                 </p>
                 <p className="mt-4 text-lg text-santa">
                   We are currently working with governments, financial
@@ -92,96 +91,10 @@ export default function AboutUs() {
                 </figure>
               </a>
             </div>
-            <div className="grid my-12 gap-x-4 grid-cols-6 max-w-2xl ml-auto mr-auto">
-              <a href="https://www.linkedin.com/in/otavio-anovazzi-104535206/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://media.licdn.com/dms/image/C5603AQGtLJqF_MrQeA/profile-displayphoto-shrink_200_200/0/1628185122820?e=1684972800&v=beta&t=2DnDS-AFSZA0A86luEY2q1QA2JOedKECVc7pKwXcRjI"
-                    alt="Otavio Anovazzi on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Front-end Developer
-                </figcaption>
-              </a>
-              <a href="https://www.linkedin.com/in/carlosrodrigocoelho/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://media.licdn.com/dms/image/C4E03AQHBc-n_Ns0LNw/profile-displayphoto-shrink_200_200/0/1590614498030?e=1684972800&v=beta&t=OL-IegYUfLwflvGSN7pqOjcsY48Dp2MUoFjq-Db2f5s"
-                    alt="Carlos Rodrigo on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Data Scientist
-                </figcaption>
-              </a>
-              <a href="https://www.linkedin.com/in/ibiscp/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://media.licdn.com/dms/image/C5603AQFHnWuckvU-Kg/profile-displayphoto-shrink_200_200/0/1581501245426?e=1684972800&v=beta&t=gZSEbm1jw6Kq3Z3E2Ni9cCDODYMxfDWnFDIA6CASyUw"
-                    alt="Ibis Prevedello on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Machine Learning Engineer
-                </figcaption>
-              </a>
-              <a href="https://www.linkedin.com/in/lucas-oliveira-92266520b/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://media.licdn.com/dms/image/C4E03AQG0YoTeTagZIg/profile-displayphoto-shrink_200_200/0/1618114751659?e=1684972800&v=beta&t=xLyjYN9zl3juTJYJzpygVPcTllc9VJbviE1SjfJ9q_M"
-                    alt="Lucas Oliveira on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Front-end Developer
-                </figcaption>
-              </a>
-              <a href="https://www.linkedin.com/in/matheus-jacques/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src="https://media.licdn.com/dms/image/C4E03AQFfFCPzAhg3Eg/profile-displayphoto-shrink_800_800/0/1646045907868?e=1686787200&v=beta&t=XgAVfdvL2YarI1LhW9U06SfRHA8kN4OJMTnCcTAKZPM"
-                    alt="Matheus Jacques on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Data Scientist
-                </figcaption>
-              </a>
-              <a href="https://www.linkedin.com/in/jackson-bolcer-63446a241/">
-                <figure>
-                  <img
-                    className="w-16 mx-auto rounded-full shadow-thick border-river"
-                    src={jackson}
-                    alt="Jackson Bolcer on Linkedin"
-                    width="1310"
-                    height="873"
-                  />
-                </figure>
-                <figcaption className="text-center mt-4 text-xs text-santa lg:text-base">
-                  Data Scientist Intern
-                </figcaption>
-              </a>
             </div>
-          </div>
         </div>
 
-        <div className="lg:grid lg:grid-cols-3 lg:gap-8 mt-10">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-8 mt-96">
           <div>
             <h1 className="text-4xl font-bold text-white">How It Works</h1>
           </div>
@@ -221,7 +134,7 @@ export default function AboutUs() {
             </main>
           </div>
         </div>
-        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-32 md:px-12 lg:px-16 max-w-5xl">
+        <div className="relative items-center w-full px-5 py-8 mx-auto lg:pt-10 md:px-12 lg:px-16 max-w-5xl">
           <div className="pt-12">
             <div className="max-w-xl mx-auto lg:max-w-7xl">
               <h2 className="sr-only">Title text for screen readers</h2>
