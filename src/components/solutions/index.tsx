@@ -57,8 +57,6 @@ export default function Solutions() {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 700.00,
-          minWidth: 700.00,
           scale: 1.00,
           scaleMobile: 1.00,
           color: 0xe282b5,
@@ -77,10 +75,10 @@ export default function Solutions() {
     <section>
       <div className="py-12 lg:mx-auto lg:max-w-7xl lg:px-16 lg:py-16" id="solutions">
         <div className="flex flex-col w-full text-center lg:mb-12">
-          <h2 className="mb-8 text-6xl font-bold leading-none text-white lg:rounded-t-md">
+          <h2 className="mb-8 text-4xl lg:text-6xl font-bold leading-none text-white lg:rounded-t-md">
             Solutions
           </h2>
-          <strong className="w-full mx-auto mb-8 text-xl font-light text-center text-chimney lg:text-center">
+          <strong className="w-full mx-auto mb-8 px-6 lg:px-0 text-xl font-light text-center text-chimney lg:text-center">
             We <span className="font-bold">don't</span> support boxed
             machine-learning solutions. Take a look at some domains we're best
             at:
@@ -89,7 +87,7 @@ export default function Solutions() {
         <div className="space-y-8">
           <div className="px-5 lg:px-0">
             <div className="mx-auto max-w-7xl">
-              <div className="overflow-hidden h-[544px] rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
+              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder flex flex-col-reverse md:flex-row">
                 <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                   <div className="space-y-4 lg:space-y-8 lg:self-center">
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
@@ -117,15 +115,18 @@ export default function Solutions() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full" id="halo"></div>
+                <div className="overflow-hidden w-full h-[300px] lg:h-[544px]">
+
+                <div className="w-full h-full" id="halo"></div>
+                </div>
               </div>
             </div>
           </div>
           <div className="px-5 lg:px-0">
             <div className="mx-auto max-w-7xl">
-              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
-                <div className="overflow-hidden h-[544px]">
-                  <div className="w-[1300px] h-[1300px] bottom-20 -left-[650px]" id="trunk"></div>
+              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder flex flex-col md:flex-row">
+                <div className="overflow-hidden h-[300px] lg:h-[544px]">
+                  <div className="w-[1300px] h-[1300px] bottom-72 lg:bottom-20 -left-[650px]" id="trunk"></div>
                 </div>
                 <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                   <div className="space-y-4 lg:space-y-8 flex flex-col justify-center h-full">
@@ -160,9 +161,9 @@ export default function Solutions() {
           </div>
           <div className="px-5 lg:px-0">
             <div className="mx-auto max-w-7xl">
-              <div className="overflow-hidden h-[544px] rounded-2xl shadow-thick bg-cinder lg:grid lg:grid-cols-2">
+              <div className="overflow-hidden rounded-2xl shadow-thick bg-cinder flex flex-col-reverse md:flex-row">
                 <div className="px-6 pt-10 flex flex-col justify-center pb-12 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-                  <div className="space-y-4 lg:space-y-8 lg:self-center flex flex-col justify-center py-8">
+                  <div className="space-y-4 lg:space-y-8 lg:self-center flex flex-col justify-center">
                     
                     <h2 className="text-4xl font-bold leading-snug text-white lg:text-3xl">
                       Deep Neural Nets
@@ -189,10 +190,12 @@ export default function Solutions() {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="relative -top-20 -left-20 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-                  id="dots"
-                ></div>
+                <div className="overflow-hidden w-full h-[300px] lg:h-[544px]">
+                  <div
+                    className="w-[450px] h-[450px] lg:w-[700px] lg:h-[700px] -left-12 -top-20 lg:relative lg:-top-20 lg:left-0"
+                    id="dots"
+                  ></div>
+                </div>
               </div>
             </div>
           </div>

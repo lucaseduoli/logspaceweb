@@ -28,7 +28,7 @@ export default function Community() {
 				<div className="py-6 lg:pt-12">
 					<div className="max-w-xl mx-auto lg:max-w-7xl">
 						<h2 className="sr-only">Hear the community</h2>
-						<dl className="grid grid-cols-2 gap-4">
+						<dl className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 							<Mosaic image={twitter1} delay={0} />
                             <Mosaic image={twitter2} delay={300} />
                             <Mosaic image={twitter3} delay={600} />

@@ -32,7 +32,7 @@ export default function Products() {
           >
             <div className="lg:grid lg:grid-cols-3 lg:grid-flow-col-dense lg:gap-24">
               <div className="max-w-xl px-5 mx-auto sm:px-6 lg:py-16 lg:max-w-lg lg:mx-0 lg:px-0">
-                <h1 className="max-w-4xl mt-24 text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
+                <h1 className="max-w-4xl mt-6 lg:mt-24 text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
                   Langflow
                 </h1>
                 <p

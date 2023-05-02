@@ -31,14 +31,15 @@ export default function Collaborate() {
         </div>
       </div>
       <div className="overflow-hidden">
+
         <div
-          className="pb-16 lg:mx-auto lg:max-w-7xl lg:px-16"
+          className="pb-8 lg:pb-16 lg:mx-auto lg:max-w-7xl lg:px-16"
           data-aos="fade-left"
           data-aos-duration="2000"
         >
           <div className="lg:grid lg:grid-cols-3 lg:grid-flow-col-dense lg:gap-24">
-            <div className="max-w-xl px-5 mx-auto sm:px-6 lg:py-16 lg:max-w-lg lg:mx-0 lg:px-0">
-              <h1 className="max-w-4xl flex items-center mt-24 text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
+            <div className="max-w-xl px-5 pt-8 mx-auto sm:px-6 lg:py-24 lg:max-w-lg lg:mx-0 lg:px-0">
+              <h1 className="max-w-4xl flex items-center text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
                 ⛓&nbsp;LangFlow
               </h1>
               <p
@@ -61,9 +62,9 @@ export default function Collaborate() {
               </div>
             </div>
             <div className="mt-12 rounded-xl sm:mt-16 lg:mt-0">
-              <div className="pl-5 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <div className="px-5 lg:-mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
-                  className="w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="mt-3 w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:w-[800px] lg:max-w-none"
                   src={langflow}
                   alt="Inbox user interface"
                 />
@@ -72,31 +73,21 @@ export default function Collaborate() {
           </div>
         </div>
         <div
-          className="pb-16 lg:mx-auto lg:max-w-7xl lg:px-16 py-8"
+          className="pb-8 lg:pb-16 lg:mx-auto lg:max-w-7xl lg:px-16"
           data-aos="fade-left"
           data-aos-duration="2000"
         >
           <div className="lg:grid lg:grid-cols-3 lg:grid-flow-col-dense lg:gap-24">
-            
-            <div className="mt-12 rounded-xl sm:mt-16 lg:mt-0">
-              <div className="pl-5 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                <img
-                  className="w-full bg-cover shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto max-w-3xl"
-                  src={wavy}
-                  alt="Inbox user interface"
-                />
-              </div>
-            </div>
-            <div />
-            <div className="max-w-xl px-5 mx-auto sm:px-6 lg:py-16 lg:max-w-lg lg:mx-0 lg:px-0">
-              <h1 className="max-w-4xl flex items-center mt-24 text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
-              ≈&nbsp;Wavy&nbsp;≈
+            <div className="max-w-xl px-5 pt-8 mx-auto sm:px-6 lg:py-16 lg:max-w-lg lg:mx-0 lg:px-0">
+              <h1 className="max-w-4xl flex items-center text-5xl font-bold leading-none tracking-tighter text-white lg:text-5xl lg:max-w-xl">
+                ≈&nbsp;Wavy&nbsp;≈
               </h1>
               <p
                 data-animate="subtitle"
                 className="max-w-md mt-6 text-base text-chimney font-light sm:text-lg md:mt-5 md:max-w-xl"
               >
                 Wavy is a time-series manipulation library designed to simplify the pre-processing steps and reliably avoid the problem of data leakage. Its main structure is built on top of Pandas.
+
               </p>
               <div className="flex w-full max-w-2xl gap-2 mt-6">
                 <div className="my-3 rounded-lg sm:mt-0">
@@ -107,6 +98,15 @@ export default function Collaborate() {
                     Learn more
                   </a>
                 </div>
+              </div>
+            </div>
+            <div className="mt-12 rounded-xl sm:mt-16 lg:mt-0">
+              <div className="px-5 lg:-mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <img
+                  className="mt-2 w-full shadow-thick rounded-2xl ring-1 ring-pearl ring-opacity-5 lg:absolute lg:left-0 lg:w-[800px] lg:max-w-none"
+                  src={wavy}
+                  alt="Inbox user interface"
+                />
               </div>
             </div>
           </div>
