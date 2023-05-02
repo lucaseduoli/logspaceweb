@@ -14,13 +14,6 @@ const company = [
     newTab: false,
   },
   { name: "Blog & News", href: "https://medium.com/logspace", description: "Read the lastests new about us", newTab: true, },
-  {
-    name: "Support",
-    href: "http://localhost:3001/logspaceweb/#/contactus",
-    description:
-      "Get in touch with our dedicated support team or reach out on our community forums",
-      newTab: false,
-  },
 ];
 
 const openSource = [
